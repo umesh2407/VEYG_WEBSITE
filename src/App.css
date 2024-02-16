@@ -85,7 +85,7 @@
 
 .bgstyle {
   background-color: black;
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle,
     #fff 0%,
     #fff 20%,
@@ -94,7 +94,7 @@
     #1d3f55 69%,
     #0e171d 77%,
     #000 85%
-  );
+  ); */
   height: 100vh;
   width: 100vw;
   max-height: 100vh;
@@ -647,7 +647,7 @@ a:hover h1 {
 @media only screen and (max-width: 600px) {
   .bgstyle {
     background-color: black;
-    background-image: radial-gradient(
+    /* background-image: radial-gradient(
       circle,
       #fff 0%,
       #fff 15%,
@@ -656,7 +656,7 @@ a:hover h1 {
       #1d3f55 69%,
       #0e171d 77%,
       #000 85%
-    );
+    ); */
     height: 100vh;
     width: 100vw;
     max-height: 100vh;

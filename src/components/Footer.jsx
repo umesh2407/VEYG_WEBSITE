@@ -4,10 +4,10 @@ import React from 'react'
     return (
       <footer className="absolute bottom-1 left-0 right-0">
         <div className="flex flex-row justify-between mx-auto items-center flex-wrap m-footer">
-          <div className="text-center pt-2 text-[#6B7280] font-readex text-[12px] ml-16 m-copyright-text select-none">&copy; 2023 Ziegerscs.com. All rights reserved.</div>
+          <div className="text-center pt-2 text-[#6B7280] font-readex text-[12px] ml-16 m-copyright-text select-none">&copy; 2024 Veyg.com. All rights reserved.</div>
           <div className="flex justify-center gap-4 mr-16 m-footer-social">
             <div className='m-copyright-socials'>
-              <a href='https://www.instagram.com/ziegerscs' target='_blank' rel='noreferrer'>
+              <a href='https://www.instagram.com/saffronyinstitute/' target='_blank' rel='noreferrer'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M10.315 0C12.745 0 13.099 0.0129999 14.123 0.0599999C15.187 0.109 15.914 0.278 16.55 0.525C17.2175 0.775874 17.8222 1.16936 18.322 1.678C18.8306 2.17777 19.2241 2.7825 19.475 3.45C19.722 4.086 19.891 4.813 19.94 5.877C19.988 6.944 20 7.284 20 10V10.08C20 12.723 19.988 13.067 19.94 14.123C19.891 15.187 19.722 15.914 19.475 16.55C19.2241 17.2175 18.8306 17.8222 18.322 18.322C17.8222 18.8306 17.2175 19.2241 16.55 19.475C15.914 19.722 15.187 19.891 14.123 19.94C13.056 19.988 12.716 20 10 20H9.92C7.277 20 6.933 19.988 5.877 19.94C4.813 19.891 4.086 19.722 3.45 19.475C2.7825 19.2241 2.17777 18.8306 1.678 18.322C1.16936 17.8222 0.775874 17.2175 0.525 16.55C0.278 15.914 0.109 15.187 0.0599999 14.123C0.0129999 13.099 0 12.744
                   0 10.315V9.685C0 7.255 0.0129999 6.901 0.0599999 5.877C0.109 4.813 0.278 4.086 0.525 3.45C0.775874 2.7825 1.16936 2.17777 1.678 1.678C2.17777 1.16936 2.7825 0.775874 3.45 0.525C4.086 0.278 4.813 0.109 5.877 0.0599999C6.901 0.0129999 7.256 0 9.685 0H10.315ZM10.234 1.802H9.766C7.31 1.802 6.982 1.813 5.959 1.86C4.984 1.905 4.455 2.067 4.102 2.204C3.635 2.386 3.302 2.602 2.952 2.952C2.602 3.302 2.386 3.635 2.204 4.102C2.067 4.455 1.904 4.984 1.86 5.959C1.813 6.982 1.802 7.31 1.802 9.766V10.234C1.802 12.69 1.813 13.018 1.86 14.041C1.905 15.016 2.067 15.545 2.204 15.898C2.386 16.364 2.603 16.698 2.952 17.048C3.302 17.398 3.635 17.614 4.102 17.796C4.455 17.933 4.984 18.096 5.959 18.14C7.013 18.188 7.329 18.198 10 18.198H10.08C12.677 18.198 12.997 18.188 14.04 18.14C15.016
@@ -18,14 +18,14 @@ import React from 'react'
               </a>
             </div>
             <div className='m-copyright-socials'>
-              <a href='mailto:support@ziegerscs.com' target='_blank' rel='noreferrer'>
+              <a href='mailto:info@saffrony.ac.in' target='_blank' rel='noreferrer'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 18" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0C1.79086 0 0 1.79086 0 4V14C0 16.2091 1.79086 18 4 18H16C18.2091 18 20 16.2091 20 14V4C20 1.79086 18.2091 0 16 0H4ZM4.41603 4.37592C4.07138 4.14616 3.60573 4.23929 3.37597 4.58393C3.1462 4.92858 3.23933 5.39423 3.58398 5.624L7.36518 8.1448C8.9607 9.20848 11.0393 9.20848 12.6348 8.14479L16.416 5.624C16.7607 5.39423 16.8538 4.92858 16.624 4.58393C16.3943 4.23929 15.9286 4.14616 15.584 4.37592L11.8028 6.89672C10.7111 7.6245 9.2889 7.6245 8.19723 6.89672L4.41603 4.37592Z" fill="#9CA3AF"/>
                 </svg>
               </a>
             </div>
             <div className='m-copyright-socials'>
-              <a href='https://youtube.com/@ziegerscs4113?si=52f7XvQnlLcdTHvq' target='_blank' rel='noreferrer'>
+              <a href='https://www.youtube.com/channel/UCQ7i9BQzrjy2VtRQOpP1UJg' target='_blank' rel='noreferrer'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 14" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M17.812 0.418C18.673 0.648 19.35 1.325 19.58 2.186C19.998 3.746 20 7 20 7C20 7 20 10.255 19.582 11.814C19.4681 12.2378 19.2448 12.6242 18.9345 12.9345C18.6242 13.2448 18.2378 13.4681 17.814 13.582C16.254 14.001 10 14.001 10 14.001C10 14.001 3.745 14.001 2.186 13.582C1.76227 13.468 1.37592 13.2446 1.06564 12.9344C0.75536 12.6241 0.532027 12.2377 0.418 11.814C-2.98023e-08 10.255 0 7 0 7C0 7 5.96046e-08 3.745 0.417 2.186C0.531211 1.76236 0.754606 1.37611 1.06486 1.06586C1.37511 0.755607 1.76136 0.532212 2.185 0.418C3.744 2.08616e-07 9.998 0 9.998 0C9.998 0 16.253 2.08616e-07 17.812 0.418ZM13.194 7L8 10V4L13.194 7Z" fill="#9CA3AF"/>
                 </svg>
