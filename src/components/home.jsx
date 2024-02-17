@@ -1,10 +1,10 @@
 
-import logo from "../../src/assets/ZiegersLogo.webp";
+import logo from "../../src/assets/ZiegersLogo.png";
 import stars from "../../src/assets/stars.webp";
 // import stroke from "../../src/assets/strokes.webp";
-import sphere1 from "../../src/assets/planet.webp";
-import sphere2 from "../../src/assets/planet2.svg";
-import sphere3 from "../../src/assets/planet3.svg";
+import sphere1 from "../../src/assets/planet.png";
+import sphere2 from "../../src/assets/planet2.png";
+import sphere3 from "../../src/assets/planet3.png";
 import { useNavigate } from "react-router-dom";
 import OutsideClickHandler from "react-outside-click-handler";
 import menu from "../assets/menu.svg";
@@ -156,7 +156,7 @@ function Home() {
         <a
           href="/"
           target="_blank"
-          className="w-[150px] m-hide h-[47px] pl-[3px] pr-[13px] mr-[3rem] bg-gradient-to-r from-zinc-950 to-blue-900 rounded-full shadow border border-blue-900 justify-start items-center inline-flex instagram-button mb-[0.5rem]"
+          className="w-[150px] m-hide h-[47px] pl-[3px] pr-[13px] mr-[3rem] justify-start items-center inline-flex  mb-[0.5rem]"
         >
           <div className="w-4 h-4 relative flex-col justify-start items-start flex " />
           <div className="text-center text-slate-50 text-xs font-normal font-['Varino'] flex flex-row justify-center items-center align-middle">
@@ -194,10 +194,10 @@ function Home() {
           <img
             src={logo}
             alt="Hello"
-            className="h-[143px] w-[150px] translate-y-5 m-logo"
+            className="h-[335px] w-[500px] translate-y-5 m-logo"
           ></img>
           <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024">
-            ZIEGERS 2024
+            VEYG 2024
           </p>
           <p className="lg:mt-3 text-center text-[#080808] font-readex font-light text-[20px] leading-[25px] ziegers-text ">
             Ziegers enables participants to discover <br /> connections that was
@@ -232,7 +232,7 @@ function Home() {
       <img
         src={sphere1}
         alt="bottomleft"
-        className="bottomleft blur-[1.3px] bottom-[30px] left-[160px] absolute h-[170px] w-[170px] "
+        className="bottomleft blur-[1.3px] bottom-[30px] left-[160px] absolute h-[108px] w-[100px] "
       ></img>
       <img
         src={sphere1}
@@ -257,7 +257,7 @@ function Home() {
       <img
         src={sphere1}
         alt="topright"
-        className="topright blur-[1.3px] -rotate-[165deg] top-28 right-24 absolute h-[170px] w-[170px] "
+        className="topright blur-[1.3px] top-28 right-24 absolute h-[108px] w-[10VEYG0px "
       ></img>
 
 <Footer/>

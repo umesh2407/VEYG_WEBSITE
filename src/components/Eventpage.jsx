@@ -119,11 +119,18 @@ const Eventpage = () => {
               onClick={handleTechnutzcardClick}
               className="flex justify-center items-center align-middle cursor-pointer"
             >
-              <img
+              {/* <img
                 src={technutzcard}
                 alt="technutzcard"
                 className={`w-[33rem] card2 tilt ${
                   showSecondCard ? "show" : ""
+                }`}
+              /> */}
+               <img
+                src={gamecard}
+                alt="gamecard"
+                className={`w-[33rem]   card1 tilt ${
+                  showFirstCard ? "show" : ""
                 }`}
               />
             </div>
@@ -133,25 +140,25 @@ const Eventpage = () => {
               onClick={handleCodexcardClick}
               className="flex justify-center items-center align-middle cursor-pointer"
             >
-              <img
+              {/* <img
                 src={codexcard}
                 alt="codexcard"
                 className={`w-[33rem] card3 tilt ${
                   showThirdCard ? "show" : ""
                 }`}
-              />
+              /> */}
             </div>
             <div
               onClick={handleWebdevcardClick}
               className="flex justify-center items-center align-middle cursor-pointer"
             >
-              <img
+              {/* <img
                 src={WebdevCard}
                 alt="WebdevCard"
                 className={`w-[33rem] card4  tilt ${
                   showFourthCard ? "show" : ""
                 }`}
-              />
+              /> */}
             </div>
           </div>
         </div>
