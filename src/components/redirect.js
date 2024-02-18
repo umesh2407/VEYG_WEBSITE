@@ -1,11 +1,11 @@
 // redirect.js
 
 export const redirectToGamingForm = () => {
-    window.location.href = 'https://forms.gle/vWau3jHnnBznNtEU9';
+    window.location.href = 'https://neartail.com/sm/3DuRQn0at';
   };
   
   export const redirectToTechnutzForm = () => {
-    window.location.href = 'https://forms.gle/MQ67x9Y2kGP17aSh9';
+    window.location.href = 'https://neartail.com/sm/3DuRQn0at';
   };
   
   export const redirectToCodexForm = () => {
