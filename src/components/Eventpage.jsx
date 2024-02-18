@@ -2,9 +2,9 @@ import React from "react";
 // import transition from "../transition";
 import Navbar from "./navbar.jsx";
 import WebdevCard from "../assets/WebdevCard.webp";
-import gamecard from "../assets/gamecard.webp";
+import gamecard from "../assets/gamecard.png";
 import technutzcard from "../assets/technutzcard.webp";
-import codexcard from "../assets/codexcard.webp";
+import codexcard from "../assets/codexcard.jpeg";
 import VanillaTilt from "vanilla-tilt";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
@@ -42,7 +42,7 @@ const Eventpage = () => {
       //   scene.appendChild(div);
       // }
 
-      document.title = "Ziegers-Events";
+      document.title = "Veyg-Events";
 
       const tiltElements = document.querySelectorAll(".tilt");
       tiltElements.forEach((element) => {
@@ -126,11 +126,18 @@ const Eventpage = () => {
                   showSecondCard ? "show" : ""
                 }`}
               /> */}
-               <img
+               {/* <img
                 src={gamecard}
                 alt="gamecard"
                 className={`w-[33rem]   card1 tilt ${
                   showFirstCard ? "show" : ""
+                }`}
+              /> */}
+               <img
+                src={codexcard}
+                alt="codexcard"
+                className={`w-[33rem] card3 tilt ${
+                  showThirdCard ? "show" : ""
                 }`}
               />
             </div>

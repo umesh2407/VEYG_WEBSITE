@@ -164,7 +164,7 @@ export default function Example() {
               Meet Our Team
             </h2>
             <p className="text-xl text-gray-500">
-              Ziegers 2024 Unveils the Brains Behind the Magic. Get to Know Our
+              Veyg 2024 Unveils the Brains Behind the Magic. Get to Know Our
               Visionary Heads and Co-Heads.
             </p>
           </div>

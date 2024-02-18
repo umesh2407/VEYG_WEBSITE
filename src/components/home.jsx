@@ -73,12 +73,15 @@ function Home() {
             className="flex flex-row justify-evenly items-center align-middle h-menus lg:mb-[1rem]"
             style={getMenuStyles(menuOpened)}
           >
-            <div
+            <div onClick={handleRegisterClick} className="cursor-pointer font-varino ml-3 text-focus-in navbar-text">
+          Events
+            </div>
+            {/* <div
               onClick={handleContactClick}
               className="flex justify-center items-center align-middle font-varino text-focus-in navbar-text cursor-pointer"
             >
               Contact
-            </div>
+            </div> */}
       
             <svg
               width="34"
@@ -121,8 +124,14 @@ function Home() {
                 />
               </g>
             </svg>
-            <div onClick={handleRegisterClick} className="cursor-pointer font-varino ml-3 text-focus-in navbar-text">
+            {/* <div onClick={handleRegisterClick} className="cursor-pointer font-varino ml-3 text-focus-in navbar-text">
           Events
+            </div> */}
+             <div
+              onClick={handleContactClick}
+              className="flex justify-center items-center align-middle font-varino text-focus-in navbar-text cursor-pointer"
+            >
+              Contact
             </div>
             <svg
               width="34"
@@ -145,13 +154,15 @@ function Home() {
             </svg>
           </div>
         </OutsideClickHandler>
-        {/* <a
+        <a
           href="/"
-          className="font-varino font-bold mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text"
-          style={{ textShadow: "0 0 10px rgba(0, 0, 0, 0.9)" }}
+          className="font-varino mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text "
+          style={{ 
+            color: "#61AFF1",
+            textShadow: "0 0 10px rgba(0, 0, 0, 0.9)" }}
         >
-          ZIEGERS
-        </a> */}
+          HOME
+        </a>
         
         <a
           href="/"
@@ -161,7 +172,10 @@ function Home() {
           <div className="w-4 h-4 relative flex-col justify-start items-start flex " />
           <div className="text-center text-slate-50 text-xs font-normal font-['Varino'] flex flex-row justify-center items-center align-middle">
          
-            <h1 className="ml-2">VEYG 2024</h1>
+            <h1 className="ml-2"   
+            style={{ 
+            color: "#61AFF1",
+            fontSize: "19px"}}>VEYG</h1>
           </div>
         </a>
         <div
@@ -199,10 +213,10 @@ function Home() {
           <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024">
             VEYG 2024
           </p>
-          <p className="lg:mt-3 text-center text-[#080808] font-readex font-light text-[20px] leading-[25px] ziegers-text ">
+          {/* <p className="lg:mt-3 text-center text-[#080808] font-readex font-light text-[20px] leading-[25px] ziegers-text ">
             Ziegers enables participants to discover <br /> connections that was
             not possible before.
-          </p>
+          </p> */}
 
           {/* <div
             onClick={handleRegisterClick}

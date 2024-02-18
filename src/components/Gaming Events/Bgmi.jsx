@@ -103,7 +103,7 @@ const Bgmi = () => {
           ZIEGERS
         </a>
 
-        <a
+        {/* <a
           href="https://www.instagram.com/ziegerscs"
           target="_blank"
           className="m-hide text-focus-in w-[150px] h-[47px] pl-[3px] pr-[13px] mr-[5rem] bg-[#B5B5B5] from-zinc-950  rounded-full shadow border border-[#B5B5B5] justify-start items-center inline-flex instagram-button mb-[0.5rem]"
@@ -127,7 +127,7 @@ const Bgmi = () => {
             </svg>
             <h1 className="ml-2 m-insta">Instagram</h1>
           </div>
-        </a>
+        </a> */}
         <div
           className="flex menu-icon cursor-pointer flex-row  justify-end mx-auto m-game-menu"
           onClick={() => setMenuOpened((prev) => !prev)}

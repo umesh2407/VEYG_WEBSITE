@@ -43,7 +43,7 @@
 }
 
 .ziegers2024 {
-  background: linear-gradient(98deg, #4a3afe 0%, #00c2ff 52.4%, #20fa0d 100%);
+  background: linear-gradient(98deg, #EB1C24 0%, #FECB3A 52.4%, #42A754 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -52,31 +52,31 @@
 
 @keyframes color-me-in {
   0% {
-    background: linear-gradient(98deg, #4a3afe 0%, #00c2ff 52.4%, #20fa0d 80%);
+    background: linear-gradient(98deg, #EB1C24 0%, #FECB3A 52.4%, #42A754 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   25% {
-    background: linear-gradient(98deg, #20fa0d 0%, #4a3afe 52.4%, #00c2ff 80%);
+    background: linear-gradient(98deg, #42A754 0%, #EB1C24 52.4%, #00c2ff 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   50% {
-    background: linear-gradient(98deg, #00c2ff 0%, #20fa0d 52.4%, #4a3afe 80%);
+    background: linear-gradient(98deg, #FECB3A 0%, #42A754 52.4%, #EB1C24 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   75% {
-    background: linear-gradient(98deg, #4a3afe 0%, #00c2ff 52.4%, #20fa0d 80%);
+    background: linear-gradient(98deg, #EB1C24 0%, #FECB3A 52.4%, #42A754 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   100% {
-    background: linear-gradient(98deg, #20fa0d 0%, #4a3afe 52.4%, #00c2ff 80%);
+    background: linear-gradient(98deg, #42A754 0%, #EB1C24 52.4%, #FECB3A 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -753,8 +753,8 @@ a:hover h1 {
   }
   .m-logo {
     margin-bottom: 2rem;
-    width: 180px;
-    height: 180px;
+    width: 317px;
+    height: 215px;
   }
   .m-gamelogotext {
     /* margin-top: -1.7rem; */
@@ -785,8 +785,8 @@ a:hover h1 {
     align-items: center;
     justify-content: center;
     margin: 2rem;
-    padding-top: 2.8rem;
-    gap: 0.5rem;
+    padding-top: 5.2rem;
+    gap: 4.5rem;
   }
   .m-card2 {
     flex-direction: column;

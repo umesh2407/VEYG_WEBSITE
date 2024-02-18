@@ -82,13 +82,15 @@ function Navbar() {
         </div>
       </OutsideClickHandler>
       <a
-        href="/"
-        className="font-varino font-bold mx-auto text-xl translate-x-[-2.7rem] text-focus-in logo-text"
-        style={{ textShadow: "0 0 10px rgba(255, 255, 255, 0.8)" }}
-      >
-        ZIEGERS
-      </a>
-
+          href="/"
+          className="font-varino mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text "
+          style={{ 
+            color: "#61AFF1",
+            textShadow: "0 0 10px rgba(0, 0, 0, 0.9)" }}
+        >
+          HOME
+        </a>
+{/* 
       <a
          href="https://www.instagram.com/ziegerscs"
          target="_blank"
@@ -113,7 +115,7 @@ function Navbar() {
           </svg>
           <h1 className="ml-2 m-insta">Instagram</h1>
         </div>
-      </a>
+      </a> */}
       <div
         className="flex menu-icon cursor-pointer flex-row  justify-end mx-auto "
         onClick={() => setMenuOpened((prev) => !prev)}
