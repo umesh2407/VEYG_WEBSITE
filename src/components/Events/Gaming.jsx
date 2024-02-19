@@ -3,10 +3,10 @@ import Navbar from "../navbar.jsx";
 import banner from "../../assets/gamingPageBanner.webp";
 import mobilebanner from "../../assets/m-gamingbanner.webp";
 import bgmi from "../../assets/bgmi.webp";
-import codm from "../../assets/codm.webp";
+import codm from "../../assets/codm.jpg";
 import valorant from "../../assets/valorant.webp";
-import fifa2k23 from "../../assets/fifa2k23.webp";
-import gt7 from "../../assets/gt7.webp";
+import fifa2k23 from "../../assets/fifa2k23.jpg";
+import gt7 from "../../assets/gt7.png";
 import { useNavigate} from "react-router-dom";
 import transition from "../../transition.js";
 import Footer from "../Footer.jsx";
@@ -64,7 +64,7 @@ const Gaming = () => {
         <img src={mobilebanner} alt="gamingBanner" className="lg:hidden" />
           <div className="flex justify-center">
             <div className="gaming font-varino uppercase text-[140px] absolute -bottom-12 z-10 m-gaming">
-              gaming
+              Tech Event
             </div>
           </div>
           <div className=" absolute w-[100vw] h-[100px] gamingbanneroverlay m-gamingbanneroverlay -bottom-[3rem] flex justify-center items-center"></div>
@@ -76,7 +76,7 @@ const Gaming = () => {
         </div>
         <div className="flex flex-col text-white mb-10 flex-wrap m-gamecard gap-16 mt-[7rem]">
           <div className="flex flex-row justify-center gap-12 game-card-1 ">
-            <div
+            {/* <div
               className="rounded-[66px] bgmigamingcard bgmi m-bgmi"
               onClick={handleBgmiCardClick}
             >
@@ -91,7 +91,7 @@ const Gaming = () => {
                   BGMI
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div
               className="rounded-[66px] codmgamingcard codm m-codm "
@@ -104,14 +104,14 @@ const Gaming = () => {
                   alt="codm"
                   className="p-4 h-[400px] w-[550px] rounded-[70px] absolute m-codm-img "
                 />
-                <div className="flex text-center my-auto mx-auto text-[80px] z-10 codmtext m-codmtext">
+                {/* <div className="flex text-center my-auto mx-auto text-[80px] z-10 codmtext m-codmtext">
                   CODM
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
           <div className="">
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
               <div
                 onClick={handleValorantCardClick}
                 className="rounded-[66px] valorantgamingcard valorant m-valorant"
@@ -127,7 +127,7 @@ const Gaming = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-row justify-center gap-12 game-card-1">
             <div
@@ -141,11 +141,11 @@ const Gaming = () => {
                   alt="fifa2k23"
                   className="p-4 h-[400px] w-[550px] rounded-[80px] absolute m-fifa-img "
                 />
-                <div className="flex text-center justify-center items-center text-[60px] z-10 fifatext max-w-[35px] m-fifatext">
+                {/* <div className="flex text-center justify-center items-center text-[60px] z-10 fifatext max-w-[35px] m-fifatext">
                   FIFA
                   <br />
                   2K23
-                </div>
+                </div> */}
               </div>
             </div>
             <div
@@ -159,9 +159,9 @@ const Gaming = () => {
                   alt="gt7"
                   className="p-4 h-[400px] w-[550px] rounded-[80px] absolute m-assetocorsa-img "
                 />
-                <div className="flex text-center justify-center items-center text-[60px] z-10 assetotext max-w-[35px] m-assetocorsatext">
+                {/* <div className="flex text-center justify-center items-center text-[60px] z-10 assetotext max-w-[35px] m-assetocorsatext">
                   Grant Truismo 7
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

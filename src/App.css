@@ -812,7 +812,8 @@ a:hover h1 {
   }
   .m-gaming {
     font-size: 60px;
-    bottom: -2rem;
+    bottom: 1rem;
+    left: 3rem;
   }
   .m-gamingbanneroverlay {
     bottom: -3rem;
@@ -1434,7 +1435,7 @@ a:hover h1 {
   background: linear-gradient(180deg, #fff 0%, rgba(181, 181, 181, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.584);
   background-blend-mode: normal, normal, luminosity;
 }
 
