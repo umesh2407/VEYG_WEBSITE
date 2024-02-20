@@ -6,7 +6,7 @@ import transition from '../transition';
 import Footer from './Footer';
 const Contact = () => {
   useEffect(() => {
-    document.title = "Ziegers-Contact";
+    document.title = "Contact";
   }, []);
   return (
     <div className='overflow-hidden max-h-screen'>
