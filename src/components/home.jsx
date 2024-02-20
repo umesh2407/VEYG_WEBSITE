@@ -41,7 +41,7 @@ function Home() {
 
   useEffect(() => {
     
-    document.title = "Ziegers - Fest of Computer Science";
+    document.title = "VEYG 2024";
     
      const delay = setTimeout(() => {
       setIsLoading(false);
@@ -166,7 +166,7 @@ function Home() {
         
         <a
           href="/"
-          target="_blank"
+          // target="_blank"
           className="w-[150px] m-hide h-[47px] pl-[3px] pr-[13px] mr-[3rem] justify-start items-center inline-flex  mb-[0.5rem]"
         >
           <div className="w-4 h-4 relative flex-col justify-start items-start flex " />
