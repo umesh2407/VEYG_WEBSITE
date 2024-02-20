@@ -12,7 +12,7 @@ import transition from "../../transition.js";
 import Footer from "../Footer.jsx";
 import Gameloader from "../Gameloader.js";
 
-const Gaming = () => {
+const Tech = () => {
   const navigate = useNavigate();
   
 
@@ -177,4 +177,4 @@ const Gaming = () => {
   );
 };
 
-export default transition(Gaming);
+export default transition(Tech);

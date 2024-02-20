@@ -13,7 +13,7 @@ import Fifa from './components/Gaming Events/Fifa';
 import Granturismo from './components/Gaming Events/Granturismo';
 import Webdev from './components/Events/Webdev';
 import Codex from './components/Events/Codex';
-import Gaming from './components/Events/Gaming';
+import Tech from './components/Events/Tech';
 import Technutz from './components/Events/Technutz';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -38,7 +38,7 @@ function App() {
       <Route path="/contact*" element={<Contact/>}/>
       <Route path="/about*" element={<About/>}/>
       <Route path="/events" element={<Eventpage/>} />
-      <Route path="/events/gaming" element={<Gaming/>} />
+      <Route path="/events/gaming" element={<Tech/>} />
       <Route path="/events/gaming/valorant" element={<Valorant/>} />
       <Route path="/events/gaming/callofduty" element={<Cod/>} />
       <Route path="/events/gaming/bgmi" element={<Bgmi/>} />
