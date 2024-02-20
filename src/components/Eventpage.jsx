@@ -3,6 +3,10 @@ import React from "react";
 import Navbar from "./navbar.jsx";
 
 import gamecard from "../assets/gamecard.png";
+<<<<<<< HEAD
+=======
+import technutzcard from "../assets/technutzcard.webp";
+>>>>>>> 99f98e4b75476dd70f8e6e6fc08b38cce68b70be
 import codexcard from "../assets/codexcard.png";
 import VanillaTilt from "vanilla-tilt";
 import { useNavigate } from "react-router-dom";

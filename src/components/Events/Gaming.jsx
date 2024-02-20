@@ -37,8 +37,8 @@ const Gaming = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    document.title = "Veyg 2k24";
     document.title = "Technical-Event";
-    
     const delay = setTimeout(() => {
      setIsLoading(false);
    }, 3000);
