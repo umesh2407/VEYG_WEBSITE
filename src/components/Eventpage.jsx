@@ -1,10 +1,9 @@
 import React from "react";
-// import transition from "../transition";
+
 import Navbar from "./navbar.jsx";
-import WebdevCard from "../assets/WebdevCard.webp";
+
 import gamecard from "../assets/gamecard.png";
-import technutzcard from "../assets/technutzcard.webp";
-import codexcard from "../assets/codexcard.jpeg";
+import codexcard from "../assets/codexcard.png";
 import VanillaTilt from "vanilla-tilt";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
@@ -24,15 +23,7 @@ const Eventpage = () => {
   const handleGamecardClick = () => {
     navigate("/events/gaming");
   };
-  const handleWebdevcardClick = () => {
-    navigate("/events/webdev");
-  };
-  const handleCodexcardClick = () => {
-    navigate("/events/codex");
-  };
-  const handleTechnutzcardClick = () => {
-    navigate("/events/technutz");
-  };
+
 
   useEffect(() => {
     const createDiv = () => {
@@ -116,7 +107,7 @@ const Eventpage = () => {
               />
             </div>
             <div
-              onClick={handleTechnutzcardClick}
+              onClick={handleGamecardClick}
               className="flex justify-center items-center align-middle cursor-pointer"
             >
               {/* <img
@@ -142,32 +133,7 @@ const Eventpage = () => {
               />
             </div>
           </div>
-          <div className="flex flex-row lg:pt-3 lg:gap-4 justify-between items-center m-card2">
-            <div
-              onClick={handleCodexcardClick}
-              className="flex justify-center items-center align-middle cursor-pointer"
-            >
-              {/* <img
-                src={codexcard}
-                alt="codexcard"
-                className={`w-[33rem] card3 tilt ${
-                  showThirdCard ? "show" : ""
-                }`}
-              /> */}
-            </div>
-            <div
-              onClick={handleWebdevcardClick}
-              className="flex justify-center items-center align-middle cursor-pointer"
-            >
-              {/* <img
-                src={WebdevCard}
-                alt="WebdevCard"
-                className={`w-[33rem] card4  tilt ${
-                  showFourthCard ? "show" : ""
-                }`}
-              /> */}
-            </div>
-          </div>
+         
         </div>
       </div>
       {/* 
