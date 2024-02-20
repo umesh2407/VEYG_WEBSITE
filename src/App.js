@@ -9,14 +9,7 @@ import Cod from './components/Gaming Events/Cod';
 import Bgmi from './components/Gaming Events/Bgmi';
 import Fifa from './components/Gaming Events/Fifa';
 import Granturismo from './components/Gaming Events/Granturismo';
-<<<<<<< HEAD
-import Webdev from './components/Events/Webdev';
-import Codex from './components/Events/Codex';
 import Tech from './components/Events/Tech';
-import Technutz from './components/Events/Technutz';
-=======
-import Gaming from './components/Events/Gaming';
->>>>>>> d030cec326b702c65d570c71ce1b0988026a5354
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
