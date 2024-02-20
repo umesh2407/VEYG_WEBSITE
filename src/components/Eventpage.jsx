@@ -4,7 +4,7 @@ import Navbar from "./navbar.jsx";
 import WebdevCard from "../assets/WebdevCard.webp";
 import gamecard from "../assets/gamecard.png";
 import technutzcard from "../assets/technutzcard.webp";
-import codexcard from "../assets/codexcard.jpeg";
+import codexcard from "../assets/codexcard.png";
 import VanillaTilt from "vanilla-tilt";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
