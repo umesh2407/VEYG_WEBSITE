@@ -37,7 +37,7 @@ const Gaming = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    document.title = "Ziegers-Gaming";
+    document.title = "Technical-Event";
     
     const delay = setTimeout(() => {
      setIsLoading(false);
