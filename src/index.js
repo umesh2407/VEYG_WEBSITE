@@ -12,9 +12,7 @@ import Cod from "./components/Gaming Events/Cod";
 import Bgmi from "./components/Gaming Events/Bgmi";
 import Fifa from "./components/Gaming Events/Fifa";
 import Granturismo from "./components/Gaming Events/Granturismo";
-import Webdev from "./components/Events/Webdev";
-import Technutz from "./components/Events/Technutz";
-import Codex from "./components/Events/Codex";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -30,9 +28,6 @@ root.render(
         <Route path="/events/gaming/bgmi" element={<Bgmi />} />
         <Route path="/events/gaming/fifa2k23" element={<Fifa />} />
         <Route path="/events/gaming/granttruismo7" element={<Granturismo />} />
-        <Route path="/events/webdev" element={<Webdev />} />
-        <Route path="/events/technutz" element={<Technutz />} />
-        <Route path="/events/codex" element={<Codex />} />
       </Routes>
     </Router>
   </React.StrictMode>

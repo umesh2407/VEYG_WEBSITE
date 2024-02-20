@@ -697,44 +697,44 @@ a:hover h1 {
   .topleft {
     height: 40px;
     width: 40px;
-    left: 60px;
-    top: 36.7rem;
-    transform: rotate(-35deg);
+    left: -11px;
+    top: 32rem;
+    transform: rotate(90deg);
   }
   .middleleft {
-    height: 17px;
-    width: 17px;
-    left: 10px;
-    bottom: 12rem;
-    transform: rotate(-5deg);
+    height: 213px;
+    width: 30px;
+    left: -42px;
+    bottom: 30rem;
+    transform: rotate(90deg);
   }
   .bottomleft {
-    height: 80px;
-    width: 80px;
-    bottom: 4.6rem;
-    left: 60px;
-    transform: rotate(-35deg);
+    height: 523px;
+    width: 75px;
+    bottom: -6.4rem;
+    left: -45px;
+    transform: rotate(88deg);
   }
   .topright {
-    height: 80px;
-    width: 80px;
-    top: 35.7rem;
-    right: 35px;
-    transform: rotate(-100deg);
+    height: 350px;
+    width: 53px;
+    top: 24rem;
+    right: 10px;
+    transform: rotate(270deg);
   }
   .bottomright {
     height: 40px;
     width: 40px;
-    right: 60px;
-    bottom: 4.6rem;
-    transform: rotate(20deg);
+    right: -14px;
+    bottom: 35rem;
+    transform: rotate(259deg);
   }
   .middleright {
-    height: 17px;
-    width: 17px;
-    right: 10px;
-    bottom: 8.4rem;
-    transform: rotate(-100deg);
+    height: 206px;
+    width: 25px;
+    right: -30px;
+    bottom: 42rem;
+    transform: rotate(267deg);
   }
   .stars {
     height: 17.6rem;
@@ -786,7 +786,7 @@ a:hover h1 {
     justify-content: center;
     margin: 2rem;
     padding-top: 5.2rem;
-    gap: 4.5rem;
+    gap: 1.5rem;
   }
   .m-card2 {
     flex-direction: column;
@@ -1375,7 +1375,7 @@ a:hover h1 {
     width: 370px;
   }
   .m-mainobjective {
-    top: 28rem;
+    top: 33rem;
   }
   .m-main-objective {
     font-size: 16px;
