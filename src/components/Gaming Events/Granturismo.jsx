@@ -248,14 +248,14 @@ const Granturismo = () => {
                   >
                     Participate
                   </div>
-                  <div>
+                  <div className="flex align-middle ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21"
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      className="flex ml-[11.5rem] m-arrow"
+                      className="flex ml-[11.3rem] m-arrow"
                     >
                       <path
                         d="M14.4301 5.92969L20.5001 11.9997L14.4301 18.0697"
@@ -278,14 +278,10 @@ const Granturismo = () => {
                 </div>
               </div>
             </div>
-            <img src={banner} alt="gt7banner" className="w-screen m-hide"></img>
-            <img
-              src={mobilebanner}
-              alt="gt7banner"
-              className="w-screen lg:hidden"
-            ></img>
-            <div className=" absolute w-[100vw] h-[300px] valorantbanneroverlay -bottom-32 flex justify-center items-center m-bgmi-overlay">
-              <div className=" inline-flex lg:p-[25px] items-center lg:gap-5 lg:rounded-[22px] webdevvenuecard translate-y-[5rem] justify-center align-middle m-venue-box">
+            <img src={banner} alt="webdevbanner" className="w-screen m-hide"></img>
+            <img src={mobilebanner} alt="webdevbanner" className="w-screen lg:hidden"></img>
+            <div className=" absolute w-[100vw] h-[300px] valorantbanneroverlay -bottom-32 flex justify-center items-center">
+            <div className=" inline-flex lg:p-[25px] items-center lg:gap-5 lg:rounded-[22px] webdevvenuecard translate-y-[5rem] justify-center align-middle m-venue-box">
                 <div className="flex items-center lg:gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -303,28 +299,27 @@ const Granturismo = () => {
                     />
                   </svg>
                   <div className=" font-readex text-[#F3F3F3]">
-                    18th January
+                    12/13th March
                   </div>
                 </div>
                 <div className="flex items-center lg:gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="30"
-                    height="25"
-                    className="m-venue-time"
-                    viewBox="0 0 38 38"
-                    fill="none"
-                  >
-                    <path
-                      d="M19.0605 9.92285V19.1729H25.998M32.9355 19.1729C32.9355 26.8358 26.7235 33.0478 19.0605 33.0478C11.3976 33.0478 5.18555 26.8358 5.18555 19.1729C5.18555 11.5099 11.3976 5.29785 19.0605 5.29785C26.7235 5.29785 32.9355 11.5099 32.9355 19.1729Z"
-                      stroke="#F3F3F3"
-                      stroke-width="2.47513"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="30"
+    height="25"
+    viewBox="0 0 38 38"
+    fill="none"
+    class="m-venue-team-member"
+>
+
+    <circle cx="19" cy="12" r="8" fill="#F3F3F3" />
+    <rect x="17" y="20" width="4" height="6" fill="#F3F3F3" />
+</svg>
+
+ 
+
                   <div className=" font-readex text-[#F3F3F3]">
-                  (TBA) via WhatsApp
+                  Members: 4
                   </div>
                 </div>
                 <div className="flex items-center lg:gap-2">
@@ -344,7 +339,7 @@ const Granturismo = () => {
                     />
                   </svg>
                   <div className=" font-readex text-[#F3F3F3]">
-                    CS Lab,4th Floor
+                  Lab (1st floor) & 203
                   </div>
                 </div>
               </div>
@@ -352,15 +347,17 @@ const Granturismo = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center gap-[40px] items-center max-w-[1000px] mx-auto lg:mt-40 mb-20">
-        <div className="text-[21px] font-readex text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 bottom-8 m-bgmi-desc">
-          Gran Turismo 7 is a 2022 racing simulation game. The event will be
-          played using the Logitech G29 steering wheel and pedal set, which
-          provides a realistic and immersive driving experience. The tournament
-          will feature a variety of cars and tracks, with a prize pool for the
-          winner. The tournament aims to bring together the best players and
-          fans of Gran Turismo to showcase their skills and enjoy the game
-          together.
+      <div className="flex flex-col justify-center gap-[40px] items-center max-w-[950px] mx-auto lg:mt-[10rem] mb-20">
+        <div className="text-[21px] font-inter text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc w-[90%] mx-auto">
+        Briefly explain the concept of decoding emoji messages related to tech. Distribute 
+riddle sheets and answer sheets to each team. Set a timer for 4 minutes. Teams work 
+together to decipher the emojis, discussing and proposing answers. Encourage 
+creative interpretations and teamwork. Award points for each correct answer. 
+Consider offering hints for particularly challenging emojis.
+<br/>
+<br/>
+Example: Team A sees the combination . After some discussion, they guess "SpaceX" 
+and write it down on their answer sheet. If their answer is correct, they earn 1 point.
         </div>
       </div>
 
@@ -387,65 +384,163 @@ const Granturismo = () => {
               gradientUnits="userSpaceOnUse"
             >
               <stop stop-color="#0B0C10" />
-              <stop offset="0.505448" stop-color="#D60000" />
+              <stop offset="0.505448" stop-color="#D6014C" />
               <stop
                 offset="0.885415"
-                stop-color="#D60000"
+                stop-color="#D6014C"
                 stop-opacity="0.1582"
               />
             </linearGradient>
           </defs>
         </svg>
         <div className="text-zinc-100 text-[80px] font-normal font-['Varino'] translate-y-[-9.7rem] leading-[137.20px] tracking-[4.90px] z-10 m-rule-text">
-          RULES
+          ROUNDS
         </div>
       </div>
 
       <div className="flex flex-col items-center text-center m-rules">
-        <div className="relative flex text-start flex-col items-center justify-center">
+        <div className="relative flex text-center flex-col items-center justify-center">
           <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
             01
           </div>
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-semibold font-['Readex Pro'] m-codm-rule-1">
-            Logitech G29 Controller
+          <div className="flex flex-col" >
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
+          Emoji Riddles (4 minutes)
           </div>
-          <div className="w-[340px] h-[20px] translate-y-[-4.2rem] bg-gradient-to-r from-zinc-950 to-red-600 m-rule-underlay-1" />
-          <div className="text-center text-white text-opacity-10 text-[80px] font-bold font-['Readex Pro'] m-rule-no-2">
-            02
+          <br/>
+          <br/>
+          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            <li>Explain decoding tech-themed emoji messages.</li>
+  <li>Distribute riddle and answer sheets to teams.</li>
+  <li>Set a 4-minute timer for collaborative decoding.</li>
+  <li>Award points for each correct answer.</li>
+  <li>Offer hints for challenging emojis.</li>
+  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            </ul>
           </div>
-          <div className="text-center z-10 max-w-[35rem] translate-y-[-3rem] text-white text-[35px] font-semibold font-['Readex Pro'] leading-[40px] m-codm-rule-2">
-            If any damages occur during use the user will face the full
-            consequences.
+        </div>
           </div>
-          <div className="w-[520px] h-[20px] translate-y-[-9rem] bg-gradient-to-r from-zinc-950 to-red-600 m-rule-underlay-6" />
-          <div className="text-center  text-white text-opacity-10 text-[90px] font-bold font-['Readex Pro'] m-rule-no-3">
-            03
+             <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
+            01
           </div>
-          <div className="text-center z-10 max-w-[50rem] translate-y-[-3rem] text-white text-[40px] font-semibold font-['Readex Pro'] leading-[40px] m-codm-rule-3">
-            The certificate will be given for whoever finishes the game in the
-            shortest time possible.
+              <div className="flex flex-col" >
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
+          Emoji Riddles (4 minutes)
           </div>
-          {/* <div className="w-[780px] h-[20px] translate-y-[-6.4rem] bg-gradient-to-r from-zinc-950 to-red-600" /> */}
-          {/* <div className="text-center  text-white text-opacity-10 text-[100px] font-bold font-['Readex Pro']">
-            04
+          <br/>
+          <br/>
+          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            <li>Explain decoding tech-themed emoji messages.</li>
+  <li>Distribute riddle and answer sheets to teams.</li>
+  <li>Set a 4-minute timer for collaborative decoding.</li>
+  <li>Award points for each correct answer.</li>
+  <li>Offer hints for challenging emojis.</li>
+  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            </ul>
           </div>
-          <div className="text-center  z-10 max-w-[54rem] translate-y-[-3.5rem] text-white text-[45px] font-semibold font-['Readex Pro'] leading-[45px]">
-            Bracket size and prizes may vary based on the number of eligible
-            teams at the tournament's start.
-          </div> */}
-          <div className="w-[680px] h-[20px] translate-y-[-6.3rem] bg-gradient-to-r from-zinc-950 to-red-600 m-rule-underlay-7" />
-          <div className="w-[711px] h-[20px] translate-y-[-10rem] bg-gradient-to-r from-zinc-950 to-red-600 m-rule-underlay-8" />
+        </div>
+          </div>
+
+          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
+            01
+          </div>
+              <div className="flex flex-col" >
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
+          Emoji Riddles (4 minutes)
+          </div>
+          <br/>
+          <br/>
+          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            <li>Explain decoding tech-themed emoji messages.</li>
+  <li>Distribute riddle and answer sheets to teams.</li>
+  <li>Set a 4-minute timer for collaborative decoding.</li>
+  <li>Award points for each correct answer.</li>
+  <li>Offer hints for challenging emojis.</li>
+  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            </ul>
+          </div>
+        </div>
+          </div>
+
+          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
+            01
+          </div>
+              <div className="flex flex-col" >
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
+          Emoji Riddles (4 minutes)
+          </div>
+          <br/>
+          <br/>
+          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            <li>Explain decoding tech-themed emoji messages.</li>
+  <li>Distribute riddle and answer sheets to teams.</li>
+  <li>Set a 4-minute timer for collaborative decoding.</li>
+  <li>Award points for each correct answer.</li>
+  <li>Offer hints for challenging emojis.</li>
+  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            </ul>
+          </div>
+        </div>
+          </div>
+
+
         </div>
       </div>
 
-      <div className="valorantnote text-[#D05555] text-center mx-auto lg:p-5 max-w-[950px]  text-[20px] font-inter italic font-medium tracking-[1.15px] m-note">
-        *NOTE: Any sort of damage to the property of Ziegers and the concerned
-        authorities will not be tolerated and the one's responsible will be
-        sanctioned with penalties and can also be charged a fine depending on
-        the damage done.
+      <div className="flex flex-col mx-auto text-center max-w-[950px]">
+        <div className="text-zinc-100 text-[68px] font-normal font-['Varino'] tracking-[4.90px] m-5 m-rule-text">
+          IN-Game RULES
+        </div>
+        <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+              <li>Trip mines are not allowed</li>
+              <li> Thermite are not allowed</li>
+              <li> No Operator Skills are allowed</li>
+              <li> Persistence Perks Not Allowed</li>
+              <li> No Emotes Are Allowed </li>
+              <li> No New Guns Are Allowed(Such as Groza) </li>
+              <li>
+                {" "}
+                Download the Ranked Maps (Map will be decided by
+                the Ziegers Teams)
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="valorantnote text-[#D05555] text-center mx-auto p-5  text-[20px] font-inter italic font-medium tracking-[1.15px] m-note">
+          *NOTE: Any sort of damage to the property of Ziegers and the concerned
+          authorities will not be tolerated and the one's responsible will be
+          sanctioned with penalties and can also be charged a fine depending on
+          the damage done.
+        </div>
       </div>
       <div className="flex mt-[5rem]">
-        <Footer />
+
+      <Footer/>
       </div>
     </section>
   );

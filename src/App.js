@@ -4,8 +4,8 @@ import { AnimatePresence } from 'framer-motion';
 import Home from './components/home';
 import Eventpage from './components/Eventpage';
 import ScrollToTop from './components/ScrollToTop';
-import Valorant from './components/Gaming Events/Valorant';
-import Cod from './components/Gaming Events/Cod';
+
+import Cod from './components/Gaming Events/JunkyardWars';
 import TechTreasureHunt from './components/Gaming Events/TechTreasureHunt';
 import Fifa from './components/Gaming Events/Fifa';
 import Granturismo from './components/Gaming Events/Granturismo';
@@ -36,12 +36,12 @@ function App() {
       <Route path="/events" element={<Eventpage/>} />
       <Route path="/events/technical" element={<Tech/>} />
       <Route path="/events/non-technical" element={<NonTech/>} />
-      <Route path="/events/technical/valorant" element={<Valorant/>} />
-      <Route path="/events/technical/callofduty" element={<Cod/>} />
+    
+      <Route path="/events/technical/JunkyardWars" element={<Cod/>} />
       <Route path="/events/technical/TechTreasureHunt" element={<TechTreasureHunt/>} />
       <Route path="/events/technical/fifa2k23" element={<Fifa/>} />
       <Route path="/events/technical/granttruismo7" element={<Granturismo/>} />
-      <Route path="/events/non-technical/valorant" element={<Valorant/>} />
+   
       <Route path="/events/non-technical/callofduty" element={<Cod/>} />
       {/* <Route path="/events/non-technical/bgmi" element={<Bgmi/>} /> */}
       <Route path="/events/non-technical/fifa2k23" element={<Fifa/>} />

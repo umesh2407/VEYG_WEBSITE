@@ -3,7 +3,7 @@ import Navbar from "../navbar.jsx";
 import banner from "../../assets/gamingPageBanner.webp";
 import mobilebanner from "../../assets/m-gamingbanner.webp";
 import bgmi from "../../assets/bgmi.jpg";
-import codm from "../../assets/codm.jpg";
+import codm from "../../assets/codm.jpeg";
 import valorant from "../../assets/valorant.webp";
 import fifa2k23 from "../../assets/fifa2k23.jpg";
 import gt7 from "../../assets/gt7.png";
@@ -20,7 +20,7 @@ const Tech = () => {
     navigate("/events/technical/valorant");
   };
   const handleCodCardClick = () => {
-    navigate("/events/technical/callofduty");
+    navigate("/events/technical/JunkyardWars");
   };
   const handleTechTreasureHuntCardClick = () => {
     navigate("/events/technical/TechTreasureHunt");

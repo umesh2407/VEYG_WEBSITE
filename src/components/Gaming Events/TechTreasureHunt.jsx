@@ -1,8 +1,8 @@
 
 
 import React from "react";
-import banner from "../../assets/codbanner.jpg";
-import mobilebanner from "../../assets/codbanner.jpg";
+import banner from "../../assets/codbanner.jpeg";
+import mobilebanner from "../../assets/codbanner.jpeg";
 import transition from "../../transition";
 import OutsideClickHandler from "react-outside-click-handler";
 import menu from "../../assets/menu.svg";
@@ -192,7 +192,7 @@ const TechTreasureHunt = () => {
                 <br />
                 Amount
                 <div className="text-slate-400 text-[15px] font-medium mt-[1rem]">
-                Prize Pool 1K
+                Prize Pool
                 </div>
                 <div className="text-slate-400 text-[13px] font-medium">
                   No refund
@@ -293,28 +293,27 @@ const TechTreasureHunt = () => {
                     />
                   </svg>
                   <div className=" font-readex text-[#F3F3F3]">
-                    18th January
+                    12/13th March
                   </div>
                 </div>
                 <div className="flex items-center lg:gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="30"
-                    height="25"
-                    className="m-venue-time"
-                    viewBox="0 0 38 38"
-                    fill="none"
-                  >
-                    <path
-                      d="M19.0605 9.92285V19.1729H25.998M32.9355 19.1729C32.9355 26.8358 26.7235 33.0478 19.0605 33.0478C11.3976 33.0478 5.18555 26.8358 5.18555 19.1729C5.18555 11.5099 11.3976 5.29785 19.0605 5.29785C26.7235 5.29785 32.9355 11.5099 32.9355 19.1729Z"
-                      stroke="#F3F3F3"
-                      stroke-width="2.47513"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="30"
+    height="25"
+    viewBox="0 0 38 38"
+    fill="none"
+    class="m-venue-team-member"
+>
+
+    <circle cx="19" cy="12" r="8" fill="#F3F3F3" />
+    <rect x="17" y="20" width="4" height="6" fill="#F3F3F3" />
+</svg>
+
+ 
+
                   <div className=" font-readex text-[#F3F3F3]">
-                  (TBA) via WhatsApp
+                  Members: 4
                   </div>
                 </div>
                 <div className="flex items-center lg:gap-2">
@@ -334,7 +333,7 @@ const TechTreasureHunt = () => {
                     />
                   </svg>
                   <div className=" font-readex text-[#F3F3F3]">
-                    CS Lab,4th Floor
+                  Lab (1st floor) & 203
                   </div>
                 </div>
               </div>
@@ -343,15 +342,16 @@ const TechTreasureHunt = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center gap-[40px] items-center max-w-[950px] mx-auto lg:mt-[10rem] mb-20">
-        <div className="text-[21px] font-inter text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc">
-          Call of Duty Mobile is a competitive event for the best teams
-          competing against each other in the popular first-person shooter game,
-          Call of Duty Mobile. The tournament will be played in the Team
-          Deathmatch mode, where teams will battle against each other to get the
-          most kills within a set time limit. The tournament will feature a
-          prize pool for the winning team, and it will be played on mobile
-          devices. It aims to bring together the best teams and fans of Call of
-          Duty Mobile to showcase their skills and enjoy the game together.
+        <div className="text-[21px] font-inter text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc w-[90%] mx-auto">
+        Briefly explain the concept of decoding emoji messages related to tech. Distribute 
+riddle sheets and answer sheets to each team. Set a timer for 4 minutes. Teams work 
+together to decipher the emojis, discussing and proposing answers. Encourage 
+creative interpretations and teamwork. Award points for each correct answer. 
+Consider offering hints for particularly challenging emojis.
+<br/>
+<br/>
+Example: Team A sees the combination . After some discussion, they guess "SpaceX" 
+and write it down on their answer sheet. If their answer is correct, they earn 1 point.
         </div>
       </div>
 
@@ -388,7 +388,7 @@ const TechTreasureHunt = () => {
           </defs>
         </svg>
         <div className="text-zinc-100 text-[80px] font-normal font-['Varino'] translate-y-[-9.7rem] leading-[137.20px] tracking-[4.90px] z-10 m-rule-text">
-          RULES
+          ROUNDS
         </div>
       </div>
 
@@ -397,33 +397,107 @@ const TechTreasureHunt = () => {
           <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
             01
           </div>
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-semibold font-['Readex Pro'] m-codm-rule-1">
-            Finger Sleeves are allowed
+          <div className="flex flex-col" >
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
+          Emoji Riddles (4 minutes)
           </div>
-          <div className="w-[355px] h-[20px] translate-y-[-4.2rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-1" />
-          <div className="text-center text-white text-opacity-10 text-[80px] font-bold font-['Readex Pro'] m-rule-no-2">
-            02
+          <br/>
+          <br/>
+          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            <li>Explain decoding tech-themed emoji messages.</li>
+  <li>Distribute riddle and answer sheets to teams.</li>
+  <li>Set a 4-minute timer for collaborative decoding.</li>
+  <li>Award points for each correct answer.</li>
+  <li>Offer hints for challenging emojis.</li>
+  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            </ul>
           </div>
-          <div className="text-center z-10 max-w-[35rem] translate-y-[-3rem] text-white text-[35px] font-semibold font-['Readex Pro'] lg:leading-[40px] m-codm-rule-2">
-            The match will be conducted in TDM mode
+        </div>
           </div>
-          <div className="w-[493px] h-[20px] translate-y-[-6.4rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-2" />
-          <div className="text-center  text-white text-opacity-10 text-[90px] font-bold font-['Readex Pro'] m-rule-no-3">
-            03
+             <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
+            01
           </div>
-          <div className="text-center z-10 max-w-[50rem] translate-y-[-3rem] text-white text-[40px] font-semibold font-['Readex Pro'] lg:leading-[40px] m-codm-rule-3">
-            Participants are required to bring their own smartphones.
+              <div className="flex flex-col" >
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
+          Emoji Riddles (4 minutes)
           </div>
-          <div className="w-[780px] h-[20px] translate-y-[-6.4rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-3" />
-          <div className="text-center  text-white text-opacity-10 text-[100px] font-bold font-['Readex Pro'] m-rule-no-4">
-            04
+          <br/>
+          <br/>
+          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            <li>Explain decoding tech-themed emoji messages.</li>
+  <li>Distribute riddle and answer sheets to teams.</li>
+  <li>Set a 4-minute timer for collaborative decoding.</li>
+  <li>Award points for each correct answer.</li>
+  <li>Offer hints for challenging emojis.</li>
+  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            </ul>
           </div>
-          <div className="text-center  z-10 max-w-[54rem] translate-y-[-3.5rem] text-white text-[45px] font-semibold font-['Readex Pro'] lg:leading-[45px] m-codm-rule-4">
-            Bracket size and prizes may vary based on the number of eligible
-            teams at the tournament's start.
+        </div>
           </div>
-          <div className="w-[720px] h-[20px] translate-y-[-7.3rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-4" />
-          <div className="w-[850px] h-[20px] translate-y-[-11.5rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-5" />
+
+          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
+            01
+          </div>
+              <div className="flex flex-col" >
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
+          Emoji Riddles (4 minutes)
+          </div>
+          <br/>
+          <br/>
+          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            <li>Explain decoding tech-themed emoji messages.</li>
+  <li>Distribute riddle and answer sheets to teams.</li>
+  <li>Set a 4-minute timer for collaborative decoding.</li>
+  <li>Award points for each correct answer.</li>
+  <li>Offer hints for challenging emojis.</li>
+  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            </ul>
+          </div>
+        </div>
+          </div>
+
+          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
+            01
+          </div>
+              <div className="flex flex-col" >
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
+          Emoji Riddles (4 minutes)
+          </div>
+          <br/>
+          <br/>
+          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            <li>Explain decoding tech-themed emoji messages.</li>
+  <li>Distribute riddle and answer sheets to teams.</li>
+  <li>Set a 4-minute timer for collaborative decoding.</li>
+  <li>Award points for each correct answer.</li>
+  <li>Offer hints for challenging emojis.</li>
+  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            </ul>
+          </div>
+        </div>
+          </div>
+
+
         </div>
       </div>
 
