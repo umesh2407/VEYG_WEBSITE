@@ -20,9 +20,12 @@ const Eventpage = () => {
   const navigate = useNavigate();
 
   const handleGamecardClick = () => {
-    navigate("/events/gaming");
+    navigate("/events/technical");
   };
 
+  const handlenonGamecardClick = () => {
+    navigate("/events/non-technical");
+  };
 
   useEffect(() => {
     const createDiv = () => {
@@ -106,7 +109,7 @@ const Eventpage = () => {
               />
             </div>
             <div
-              onClick={handleGamecardClick}
+              onClick={handlenonGamecardClick}
               className="flex justify-center items-center align-middle cursor-pointer"
             >
               {/* <img

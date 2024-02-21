@@ -12,24 +12,24 @@ import transition from "../../transition.js";
 import Footer from "../Footer.jsx";
 import Gameloader from "../Gameloader.js";
 
-const Tech = () => {
+const NonTech = () => {
   const navigate = useNavigate();
   
 
   const handleValorantCardClick = () => {
-    navigate("/events/technical/valorant");
+    navigate("/events/non-technical/valorant");
   };
   const handleCodCardClick = () => {
-    navigate("/events/technical/callofduty");
+    navigate("/events/non-technical/callofduty");
   };
-  const handleTechTreasureHuntCardClick = () => {
-    navigate("/events/technical/TechTreasureHunt");
+  const handleBgmiCardClick = () => {
+    navigate("/events/non-technical/bgmi");
   };
   const handleFifaCardClick = () => {
-    navigate("/events/technical/fifa2k23");
+    navigate("/events/non-technical/fifa2k23");
   };
   const handleGt7CardClick = () => {
-    navigate("/events/technical/granttruismo7");
+    navigate("/events/non-technical/granttruismo7");
   };
 
   const [loading, setLoading] = useState(true);
@@ -38,7 +38,7 @@ const Tech = () => {
 
   useEffect(() => {
     document.title = "Veyg 2k24";
-    document.title = "Technical-Event";
+    document.title = "Non-Technical-Event";
     const delay = setTimeout(() => {
      setIsLoading(false);
    }, 3000);
@@ -64,7 +64,7 @@ const Tech = () => {
         <img src={mobilebanner} alt="gamingBanner" className="lg:hidden" />
           <div className="flex justify-center">
             <div className="gaming font-varino uppercase text-[140px] absolute -bottom-12 z-10 m-gaming">
-              Tech Event
+              Non-Tech Event
             </div>
           </div>
           <div className=" absolute w-[100vw] h-[100px] gamingbanneroverlay m-gamingbanneroverlay -bottom-[3rem] flex justify-center items-center"></div>
@@ -76,9 +76,9 @@ const Tech = () => {
         </div>
         <div className="flex flex-col text-white mb-10 flex-wrap m-gamecard gap-16 mt-[7rem]">
           <div className="flex flex-row justify-center gap-12 game-card-1 ">
-            <div
+            {/* <div
               className="rounded-[66px] bgmigamingcard bgmi m-bgmi"
-              onClick={handleTechTreasureHuntCardClick}
+              onClick={handleBgmiCardClick}
             >
               <div className="w-[550px] h-[400px] text-center  flex justify-center cursor-pointer relative grayscale hover:grayscale-0 transition-all duration-500 ease-in-out m-bgmi">
                 <div className="overlay m-overlay"></div>
@@ -88,27 +88,12 @@ const Tech = () => {
                   className="p-4 h-[400px] w-[550px] rounded-[70px] absolute m-bgmi-img "
                 />
                 <div className="flex text-center my-auto mx-auto text-[80px] z-10 bgmitext m-bgmitext">
-                  
+                  BGMI
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div
-              className="rounded-[66px] codmgamingcard codm m-codm "
-              onClick={handleCodCardClick}
-            >
-              <div className="w-[550px] h-[400px] text-center flex justify-center cursor-pointer relative grayscale hover:grayscale-0 transition-all duration-500 ease-in-out m-codm ">
-                <div className="overlay m-overlay"></div>
-                <img
-                  src={codm}
-                  alt="codm"
-                  className="p-4 h-[400px] w-[550px] rounded-[70px] absolute m-codm-img "
-                />
-                {/* <div className="flex text-center my-auto mx-auto text-[80px] z-10 codmtext m-codmtext">
-                  CODM
-                </div> */}
-              </div>
-            </div>
+    
           </div>
           <div className="">
             {/* <div className="flex justify-center">
@@ -177,4 +162,4 @@ const Tech = () => {
   );
 };
 
-export default transition(Tech);
+export default transition(NonTech);

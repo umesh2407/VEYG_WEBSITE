@@ -1,30 +1,23 @@
-import React, { useEffect } from "react";
-import banner from "../../assets/bgmibanner.webp";
-import mobilebanner from "../../assets/m-bgmibanner.webp";
-import transition from "../../transition.js";
-import erangle from "../../assets/eranglemap.webp";
-import vikendi from "../../assets/vikendimap.webp";
-import miramar from "../../assets/miramarmap.webp";
-import sanhok from "../../assets/sanhokmap.webp";
+
+
+import React from "react";
+import banner from "../../assets/codbanner.jpg";
+import mobilebanner from "../../assets/codbanner.jpg";
+import transition from "../../transition";
 import OutsideClickHandler from "react-outside-click-handler";
 import menu from "../../assets/menu.svg";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Footer from "../Footer.jsx";
-import { redirectToGamingForm } from "../redirect.js";
+import Footer from "../Footer";
+import { redirectToGamingForm } from "../redirect";
 
-const Bgmi = () => {
+const TechTreasureHunt = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const getMenuStyles = (menuOpened) => {
     if (document.documentElement.clientWidth <= 800) {
       return { right: !menuOpened && "-100%" };
     }
   };
-
-  useEffect(() => {
-    document.title = "Ziegers-BGMI";
-  }, []);
-
   const navigate = useNavigate();
   const handleContactClick = () => {
     navigate("/contact");
@@ -32,81 +25,80 @@ const Bgmi = () => {
   const handleAboutclick = () => {
     navigate("/about");
   };
-
-
   return (
-    <div className="wrapper ">
-      <nav
+    <section className="bg-[#0A0A0B] overflow-x-hidden wrapper ">
+       <nav
         className="flex text-[#fff] flex-row  items-center align-middle mx-auto pt-2 pl-10 justify-between bg-[#000000CC] rounded-es-[100px] rounded-br-[100px] bg-opacity-80 absolute m-gaming-nav"
         style={{ position: "absolute", top: 0, left: 0, right: 0, zIndex: 15 }}
       >
         <OutsideClickHandler
-          onOutsideClick={() => {
-            setMenuOpened(false);
-          }}
-        >
+        onOutsideClick={() => {
+          setMenuOpened(false);
+        }}
+      >
+        <div className="flex flex-row justify-evenly items-center align-middle h-menus lg:mb-[1rem]  ml-[3rem]"  style={getMenuStyles(menuOpened)}>
           <div
-            className="flex flex-row justify-evenly items-center align-middle h-menus lg:mb-[1rem]  ml-[3rem]"
-            style={getMenuStyles(menuOpened)}
+            onClick={handleContactClick}
+            className="flex justify-center cursor-pointer items-center align-middle font-varino text-focus-in navbar-text"
           >
-            <div onClick={handleContactClick} className="flex cursor-pointer justify-center items-center align-middle font-varino text-focus-in navbar-text cursor-pointer">
-              Contact
-            </div>
-            <svg
-              width="34"
-              height="34"
-              viewBox="0 0 34 34"
-              fill="none"
-              className="text-focus-in m-hide"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="Huge-icon/arrows/outline/arrow-down">
-                <path
-                  id="Vector 190"
-                  d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
-                  stroke="#F3F3F3"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </g>
-            </svg>
-            <div onClick={handleAboutclick} className=" font-varino ml-3 text-focus-in navbar-text cursor-pointer">
-              About
-            </div>
-            <svg
-              width="34"
-              height="34"
-              className="text-focus-in m-hide"
-              viewBox="0 0 34 34"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="Huge-icon/arrows/outline/arrow-down">
-                <path
-                  id="Vector 190"
-                  d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
-                  stroke="#F3F3F3"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </g>
-            </svg>
+            Contact
           </div>
+          <svg
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            className="text-focus-in m-hide"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="Huge-icon/arrows/outline/arrow-down">
+              <path
+                id="Vector 190"
+                d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
+                stroke="#F3F3F3"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </svg>
+          <div onClick={handleAboutclick} className="cursor-pointer font-varino ml-3 text-focus-in navbar-text">
+            About
+          </div>
+          <svg
+            width="34"
+            height="34"
+            className="text-focus-in m-hide"
+            viewBox="0 0 34 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="Huge-icon/arrows/outline/arrow-down">
+              <path
+                id="Vector 190"
+                d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
+                stroke="#F3F3F3"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </svg>
+        </div>
         </OutsideClickHandler>
         <a
           href="/"
-          className="font-varino font-bold mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text"
-          style={{ textShadow: "0 0 10px rgba(255, 255, 255, 0.8)" }}
+          className="font-varino font-bold mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text "
+          style={{
+        color:"rgb(97, 175, 241)" }}
         >
-          ZIEGERS
+          HOME
         </a>
 
-        {/* <a
+        <a
           href="https://www.instagram.com/ziegerscs"
           target="_blank"
-          className="m-hide text-focus-in w-[150px] h-[47px] pl-[3px] pr-[13px] mr-[5rem] bg-[#B5B5B5] from-zinc-950  rounded-full shadow border border-[#B5B5B5] justify-start items-center inline-flex instagram-button mb-[0.5rem]"
+          className="m-hide text-focus-in w-[150px] h-[47px] pl-[3px] pr-[13px] mr-[5rem] bg-[#D6014C] from-zinc-950  rounded-full shadow border border-[#D6014C] justify-start items-center inline-flex instagram-button mb-[0.5rem]"
         >
           <div className="w-4 h-4 relative flex-col justify-start items-start flex " />
           <div className="text-center text-white  text-xs font-normal font-['Varino'] flex flex-row justify-center items-center align-middle">
@@ -127,29 +119,29 @@ const Bgmi = () => {
             </svg>
             <h1 className="ml-2 m-insta">Instagram</h1>
           </div>
-        </a> */}
+        </a>
         <div
-          className="flex menu-icon cursor-pointer flex-row  justify-end mx-auto m-game-menu"
-          onClick={() => setMenuOpened((prev) => !prev)}
-        >
-          <img
-            src={menu}
-            alt="menu"
-            width="50px"
-            className="flex border border-solid  m-burger border-[#F3F3F3] rounded-lg m-burger2 text-focus-in"
-          ></img>
-        </div>
+        className="flex menu-icon cursor-pointer flex-row  justify-end mx-auto m-game-menu"
+        onClick={() => setMenuOpened((prev) => !prev)}
+      >
+        <img
+          src={menu}
+          alt="menu"
+          width="50px"
+          className="flex border border-solid  m-burger border-[#F3F3F3] rounded-lg m-burger2 text-focus-in"
+        ></img>
+      </div>
       </nav>
       <div className="font-varino">
-        <div className="">
-          <div className="lg:flex justify-end relative z-10 hidden">
+        <div>
+          <div className="lg:flex justify-end z-10 hidden">
             <svg
               width="300"
               height="341"
               viewBox="0 0 382 341"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute top-[2rem] right-[5px]"
+              className="absolute top-[2rem] right-[5px] z-10"
             >
               <path
                 d="M0 135.107C0 108.981 0 95.9175 2.42664 85.1039C10.8952 47.3661 40.3661 17.8952 78.1039 9.42664C88.9175 7 101.981 7 128.107 7H143.832C151.85 7 159.774 8.72531 167.066 12.0588L168.579 12.7504C182.779 19.2416 199.134 19.0562 213.183 12.2447C220.302 8.79315 228.11 7 236.022 7H253.507C279.993 7 293.236 7 304.192 9.4935C341.69 18.0279 370.972 47.3098 379.507 84.8081C382 95.7639 382 109.007 382 135.493V174C382 236.624 382 267.935 368.471 291.227C359.744 306.252 347.252 318.744 332.227 327.471C308.935 341 277.624 341 215 341H167C104.376 341 73.0647 341 49.7734 327.471C34.7481 318.744 22.2561 306.252 13.5287 291.227C0 267.935 0 236.624 0 174V135.107Z"
@@ -167,7 +159,7 @@ const Bgmi = () => {
               height="111"
               viewBox="0 0 105 111"
               fill="none"
-              className="absolute translate-y-[7rem] mr-[2.5rem]"
+              className="absolute top-[7rem] mr-[2.5rem] z-10"
             >
               <path
                 d="M47.0275 21.0951L37.38 55.5022C37.0234 56.7732 36.4299 57.9555 35.6346 58.9789C34.8393 60.0024 33.8583 60.8462 32.7498 61.4604C31.6413 62.0746 30.4278 62.4467 29.1812 62.5546C27.9347 62.6626 26.6803 62.5042 25.4925 62.0888L11.2375 57.1057C9.94781 56.655 8.76623 55.9118 7.77497 54.9278C6.78371 53.9438 6.00657 52.7426 5.49761 51.4079C4.98865 50.0731 4.76011 48.6368 4.82787 47.1988C4.89563 45.7609 5.25808 44.3559 5.88999 43.0816L24.6275 5.29765C25.3848 3.77083 26.5049 2.48003 27.8771 1.55292C29.2492 0.6258 30.8258 0.094473 32.451 0.0114781C34.0762 -0.0715169 35.6937 0.296695 37.1435 1.0797C38.5933 1.86271 39.8253 3.03339 40.7175 4.47597L45.8875 12.8359C46.6327 14.0418 47.1207 15.4055 47.3176 16.832C47.5145 18.2585 47.4155 19.7133 47.0275 21.0951Z"
@@ -187,20 +179,20 @@ const Bgmi = () => {
               />
               <path
                 d="M105 68.6277V91.913C104.735 94.5159 103.797 96.6425 102.185 98.2929C101.425 99.0704 100.159 99.9469 98.3875 100.922C94.3625 103.14 90.3692 105.389 86.4075 107.668C85.0609 108.442 83.9434 108.923 83.055 109.11C79.115 109.942 75.1925 108.166 73.1225 104.585C72.6225 103.72 72.1542 102.451 71.7175 100.779C70.1092 94.6192 68.4775 88.5388 66.8225 82.5379C66.1842 80.2266 65.875 78.5939 65.895 77.6397C65.9775 73.4412 68.335 69.8629 72.075 68.3494C79.1367 65.4939 85.6783 62.823 91.7 60.3367C92.855 59.8596 93.8775 59.5795 94.7675 59.4965C97.4309 59.2438 99.7775 60.0478 101.808 61.9085C103.671 63.6155 104.735 65.8552 105 68.6277Z"
-                fill="#B5B5B5"
+                fill="#D6014C"
               />
               <path
                 d="M66.6125 110.998H38.1875C36.4059 109.001 35.5025 106.729 35.4775 104.181C35.4659 103.052 35.7384 101.435 36.295 99.3304C37.7784 93.7307 39.2584 87.9401 40.735 81.9586C41.29 79.7127 41.7175 78.231 42.0175 77.5136C43.4525 74.0784 46.69 71.7857 50.245 71.6956C51.7767 71.6567 53.185 71.6638 54.47 71.7168C57.475 71.8413 60.185 73.7471 61.7675 76.3818C62.1942 77.0921 62.66 78.3635 63.165 80.196C65.0784 87.1528 66.9959 94.1079 68.9175 101.061C69.9492 104.79 69.1809 108.102 66.6125 110.998Z"
                 fill="#282A36"
               />
             </svg>
-            <div className="flex flex-row">
+            <div className="flex flex-row z-10">
               <div className=" absolute text-white text-xl font-semibold font-['Outfit'] translate-y-[7.5rem] -translate-x-[16.5rem]">
                 Registration
                 <br />
                 Amount
-                <div className="text-slate-400 text-[13px] font-bold mt-[1rem] leading-0">
-                Prize Pool &nbsp; ₹1500
+                <div className="text-slate-400 text-[15px] font-medium mt-[1rem]">
+                Prize Pool 1K
                 </div>
                 <div className="text-slate-400 text-[13px] font-medium">
                   No refund
@@ -218,7 +210,7 @@ const Bgmi = () => {
                       >
                         <path
                           d="M14.43 5.92969L20.5 11.9997L14.43 18.0697"
-                          stroke="#B5B5B5"
+                          stroke="#D6014C"
                           stroke-width="1.5"
                           stroke-miterlimit="10"
                           stroke-linecap="round"
@@ -226,7 +218,7 @@ const Bgmi = () => {
                         />
                         <path
                           d="M3.5 12H20.33"
-                          stroke="#B5B5B5"
+                          stroke="#D6014C"
                           stroke-width="1.5"
                           stroke-miterlimit="10"
                           stroke-linecap="round"
@@ -236,31 +228,32 @@ const Bgmi = () => {
                     </div>
                   </div>
                   <div className="left-[30px] top-[30px] absolute text-white text-[20px] font-semibold">
-                    ₹200/Team
+                    ₹70/Person
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="relative flex justify-center">
-            <div className="flex justify-center bgmi-btn cursor-pointer absolute z-10 mx-auto bottom-[5.5rem] ">
+            <div className="flex justify-center cod-btn cursor-pointer absolute z-10 mx-auto bottom-[8.5rem]">
               <div className="flex justify-center ">
-                <div onClick={redirectToGamingForm} className="w-[235px] h-[65px] text-center flex flex-row items-center  left-0 top-0 bg-[#D4C8BD] rounded-[100px] m-bgmi-btn ">
-                  <div className="left-[2rem] absolute text-neutral-900 text-[22px] font-semibold font-['Outfit'] m-participate-text">
+                <div onClick={redirectToGamingForm} className="w-[235px] h-[65px] text-center flex flex-row items-center  left-0 top-0 bg-[#D6014C] rounded-[100px] m-cod-btn ">
+                  <div  className="left-[2rem] absolute text-white text-[22px] font-semibold font-['Outfit'] m-participate-text">
                     Participate
                   </div>
-                  <div>
+                  <div className="flex align-middle ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21"
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      className="flex ml-[11.5rem] m-arrow"
+                      className="flex ml-[11.3rem] m-arrow"
                     >
                       <path
                         d="M14.4301 5.92969L20.5001 11.9997L14.4301 18.0697"
-                        stroke="#0B0C10"
+                        stroke="#fff"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
                         stroke-linecap="round"
@@ -268,7 +261,7 @@ const Bgmi = () => {
                       />
                       <path
                         d="M3.5 12H20.33"
-                        stroke="#0B0C10"
+                        stroke="#fff"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
                         stroke-linecap="round"
@@ -279,18 +272,10 @@ const Bgmi = () => {
                 </div>
               </div>
             </div>
-            <img
-              src={banner}
-              alt="bgmibanner"
-              className="w-screen m-hide"
-            ></img>
-            <img
-              src={mobilebanner}
-              alt="bgmibanner"
-              className="w-screen lg:hidden"
-            ></img>
-            <div className=" absolute w-[100vw] h-[300px] valorantbanneroverlay -bottom-32 flex justify-center items-center m-bgmi-overlay">
-              <div className=" inline-flex lg:p-[25px] items-center lg:gap-5 lg:rounded-[22px] webdevvenuecard translate-y-[5rem] justify-center align-middle m-venue-box">
+            <img src={banner} alt="webdevbanner" className="w-screen m-hide"></img>
+            <img src={mobilebanner} alt="webdevbanner" className="w-screen lg:hidden"></img>
+            <div className=" absolute w-[100vw] h-[300px] valorantbanneroverlay -bottom-32 flex justify-center items-center">
+            <div className=" inline-flex lg:p-[25px] items-center lg:gap-5 lg:rounded-[22px] webdevvenuecard translate-y-[5rem] justify-center align-middle m-venue-box">
                 <div className="flex items-center lg:gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -357,65 +342,128 @@ const Bgmi = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center gap-[40px] items-center max-w-[950px] mx-auto lg:mt-40 mb-20">
-        <div className="text-[21px] font-readex text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc">
-          <p className="pb-3">
-            Battlegrounds Mobile India, or BGMI, is a TPP-FPP survival shooter
-            game in which up to 100 players compete in a battle royale, a type
-            of large-scale last man standing deathmatch in which players compete
-            to be the last one standing. A squad match in BGMI is a four-man
-            team mode where you will battle against 24 other teams to secure the
-            coveted chicken dinner.
-          </p>
+      <div className="flex flex-col justify-center gap-[40px] items-center max-w-[950px] mx-auto lg:mt-[10rem] mb-20">
+        <div className="text-[21px] font-inter text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc">
+          Call of Duty Mobile is a competitive event for the best teams
+          competing against each other in the popular first-person shooter game,
+          Call of Duty Mobile. The tournament will be played in the Team
+          Deathmatch mode, where teams will battle against each other to get the
+          most kills within a set time limit. The tournament will feature a
+          prize pool for the winning team, and it will be played on mobile
+          devices. It aims to bring together the best teams and fans of Call of
+          Duty Mobile to showcase their skills and enjoy the game together.
         </div>
-        <div className="font-varino text-[90px] tracking-[4.9px] text-center valorantrules m-rule-text">
-          MAPS
+      </div>
+
+      <div className="flex flex-col text-center justify-center z-10 lg:pt-[10rem] m-lgsvg">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1400"
+          height="350"
+          viewBox="0 0 1920 491"
+          fill="none"
+          className="relative z-[10rem] mt-[-15.5rem] -mb-[5rem] m-rule-banner"
+        >
+          <path
+            d="M-21.6252 490.432L-22.2461 308.932L2319.61 0.704816L2221.19 189.569L-21.6252 490.432Z"
+            fill="url(#paint0_linear_529_185)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_529_185"
+              x1="1966.11"
+              y1="45.1715"
+              x2="130.911"
+              y2="512.69"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#0B0C10" />
+              <stop offset="0.505448" stop-color="#D6014C" />
+              <stop
+                offset="0.885415"
+                stop-color="#D6014C"
+                stop-opacity="0.1582"
+              />
+            </linearGradient>
+          </defs>
+        </svg>
+        <div className="text-zinc-100 text-[80px] font-normal font-['Varino'] translate-y-[-9.7rem] leading-[137.20px] tracking-[4.90px] z-10 m-rule-text">
+          RULES
         </div>
-        <div className="bgmimaps flex flex-row justify-center gap-10 flex-wrap px-5">
-          <div>
-            <img
-              src={erangle}
-              alt="erangle"
-              className="w-[420px] h-[250px] m-bgmi-maps"
-            />
+      </div>
+
+      <div className="flex flex-col items-center text-center m-rules">
+        <div className="relative flex text-center flex-col items-center justify-center">
+          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
+            01
           </div>
-          <div>
-            <img
-              src={vikendi}
-              alt="vikendi"
-              className="w-[420px] h-[250px] m-bgmi-maps"
-            />
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-semibold font-['Readex Pro'] m-codm-rule-1">
+            Finger Sleeves are allowed
           </div>
-          <div>
-            <img
-              src={miramar}
-              alt="miramar"
-              className="w-[420px] h-[250px] m-bgmi-maps"
-            />
+          <div className="w-[355px] h-[20px] translate-y-[-4.2rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-1" />
+          <div className="text-center text-white text-opacity-10 text-[80px] font-bold font-['Readex Pro'] m-rule-no-2">
+            02
           </div>
-          <div>
-            <img
-              src={sanhok}
-              alt="sanhok"
-              className="w-[420px] h-[250px] m-bgmi-maps"
-            />
+          <div className="text-center z-10 max-w-[35rem] translate-y-[-3rem] text-white text-[35px] font-semibold font-['Readex Pro'] lg:leading-[40px] m-codm-rule-2">
+            The match will be conducted in TDM mode
+          </div>
+          <div className="w-[493px] h-[20px] translate-y-[-6.4rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-2" />
+          <div className="text-center  text-white text-opacity-10 text-[90px] font-bold font-['Readex Pro'] m-rule-no-3">
+            03
+          </div>
+          <div className="text-center z-10 max-w-[50rem] translate-y-[-3rem] text-white text-[40px] font-semibold font-['Readex Pro'] lg:leading-[40px] m-codm-rule-3">
+            Participants are required to bring their own smartphones.
+          </div>
+          <div className="w-[780px] h-[20px] translate-y-[-6.4rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-3" />
+          <div className="text-center  text-white text-opacity-10 text-[100px] font-bold font-['Readex Pro'] m-rule-no-4">
+            04
+          </div>
+          <div className="text-center  z-10 max-w-[54rem] translate-y-[-3.5rem] text-white text-[45px] font-semibold font-['Readex Pro'] lg:leading-[45px] m-codm-rule-4">
+            Bracket size and prizes may vary based on the number of eligible
+            teams at the tournament's start.
+          </div>
+          <div className="w-[720px] h-[20px] translate-y-[-7.3rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-4" />
+          <div className="w-[850px] h-[20px] translate-y-[-11.5rem] bg-gradient-to-r from-zinc-950 to-rose-600 m-rule-underlay-5" />
+        </div>
+      </div>
+
+      <div className="flex flex-col mx-auto text-center max-w-[950px]">
+        <div className="text-zinc-100 text-[68px] font-normal font-['Varino'] tracking-[4.90px] m-5 m-rule-text">
+          IN-Game RULES
+        </div>
+        <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+              <li>Trip mines are not allowed</li>
+              <li> Thermite are not allowed</li>
+              <li> No Operator Skills are allowed</li>
+              <li> Persistence Perks Not Allowed</li>
+              <li> No Emotes Are Allowed </li>
+              <li> No New Guns Are Allowed(Such as Groza) </li>
+              <li>
+                {" "}
+                Download the Ranked Maps (Map will be decided by
+                the Ziegers Teams)
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="text-[25px] font-readex text-center text-[#D4D4D4] tracking-[1.15px] font-semibold  m-bgmi-rule">
-          There will be 3 matches held. Which ever team gets more points in all
-          three matches will be declared as a winner.
-        </div>
-        
-        <div className="valorantnote text-[#D05555] text-center text-[20px] font-inter italic font-medium tracking-[1.15px] m-note">
+        <div className="valorantnote text-[#D05555] text-center mx-auto p-5  text-[20px] font-inter italic font-medium tracking-[1.15px] m-note">
           *NOTE: Any sort of damage to the property of Ziegers and the concerned
           authorities will not be tolerated and the one's responsible will be
           sanctioned with penalties and can also be charged a fine depending on
           the damage done.
         </div>
       </div>
+      <div className="flex mt-[5rem]">
+
       <Footer/>
-    </div>
+      </div>
+    </section>
   );
 };
 
-export default transition(Bgmi);
+export default transition(TechTreasureHunt);
