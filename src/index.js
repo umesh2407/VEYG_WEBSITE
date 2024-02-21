@@ -10,7 +10,7 @@ import Tech from "./components/Events/Tech";
 import Cod from "./components/Gaming Events/JunkyardWars";
 // import Bgmi from "./components/Gaming Events/Bgmi";
 import TechTreasureHunt from "./components/Gaming Events/TechTreasureHunt";
-import Fifa from "./components/Gaming Events/TechAdventure";
+// import GullyCricket  from "./components/Gaming Events/GullyCricket ";
 import Granturismo from "./components/Gaming Events/CpuAssembly";
 
 
@@ -25,7 +25,7 @@ root.render(
         <Route path="/events/gaming" element={<Tech />} />
         <Route path="/events/gaming/callofduty" element={<Cod />} />
         <Route path="/events/gaming/TechTreasureHunt" element={<TechTreasureHunt />} />
-        <Route path="/events/gaming/fifa2k23" element={<Fifa />} />
+        {/* <Route path="/events/gaming/GullyCricket " element={<GullyCricket />} /> */}
         <Route path="/events/gaming/granttruismo7" element={<Granturismo />} />
       </Routes>
     </Router>

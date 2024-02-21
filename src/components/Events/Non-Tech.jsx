@@ -2,10 +2,9 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../navbar.jsx";
 import banner from "../../assets/gamingPageBanner.webp";
 import mobilebanner from "../../assets/m-gamingbanner.webp";
-import bgmi from "../../assets/bgmi.jpg";
+import gullycricket from "../../assets/gullycricket.jpeg";
 import codm from "../../assets/codm.jpeg";
-import fifa2k23 from "../../assets/fifa2k23.jpg";
-import gt7 from "../../assets/gt7.png";
+import pentalon from "../../assets/pentalon.jpeg";
 import { useNavigate} from "react-router-dom";
 import transition from "../../transition.js";
 import Footer from "../Footer.jsx";
@@ -14,21 +13,11 @@ import Gameloader from "../Gameloader.js";
 const NonTech = () => {
   const navigate = useNavigate();
   
-
-  const handleValorantCardClick = () => {
-    navigate("/events/non-technical/valorant");
-  };
-  const handleCodCardClick = () => {
-    navigate("/events/non-technical/callofduty");
-  };
-  const handleBgmiCardClick = () => {
-    navigate("/events/non-technical/bgmi");
-  };
   const handleFifaCardClick = () => {
-    navigate("/events/non-technical/TechAdventure");
+    navigate("/events/non-technical/GullyCricket");
   };
   const handleGt7CardClick = () => {
-    navigate("/events/non-technical/granttruismo7");
+    navigate("/events/non-technical/Pentathlon");
   };
 
   const [loading, setLoading] = useState(true);
@@ -69,9 +58,7 @@ const NonTech = () => {
           <div className=" absolute w-[100vw] h-[100px] gamingbanneroverlay m-gamingbanneroverlay -bottom-[3rem] flex justify-center items-center"></div>
         </div>
         <div className="text-center text-neutral-300 text-opacity-90 text-[30px] font-medium font-readex mt-[7rem] z-10 m-gaming-desc">
-          Play a variety of games of different genre, selecting from a
-          <br className="lg:flex hidden" />
-          large library of games.
+       
         </div>
         <div className="flex flex-col text-white mb-10 flex-wrap m-gamecard gap-16 mt-[7rem]">
           <div className="flex flex-row justify-center gap-12 game-card-1 ">
@@ -121,8 +108,8 @@ const NonTech = () => {
               <div className="w-[550px] h-[400px] text-center  flex justify-center cursor-pointer  relative grayscale hover:grayscale-0 transition-all duration-[600ms] ease-in-out m-fifa">
                 <div className="overlay m-overlay"></div>
                 <img
-                  src={fifa2k23}
-                  alt="fifa2k23"
+                  src={gullycricket}
+                  alt="GullyCricket"
                   className="p-4 h-[400px] w-[550px] rounded-[80px] absolute m-fifa-img "
                 />
                 {/* <div className="flex text-center justify-center items-center text-[60px] z-10 fifatext max-w-[35px] m-fifatext">
@@ -139,8 +126,8 @@ const NonTech = () => {
               <div className="w-[550px] h-[400px] text-center  flex justify-center cursor-pointer  relative grayscale hover:grayscale-0 transition-all duration-500 ease-in-out m-assetocorsa">
                 <div className="overlay m-overlay"></div>
                 <img
-                  src={gt7}
-                  alt="gt7"
+                  src={pentalon}
+                  alt="Pentathlon"
                   className="p-4 h-[400px] w-[550px] rounded-[80px] absolute m-assetocorsa-img "
                 />
                 {/* <div className="flex text-center justify-center items-center text-[60px] z-10 assetotext max-w-[35px] m-assetocorsatext">

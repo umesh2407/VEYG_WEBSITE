@@ -192,7 +192,7 @@ const TechAdventure = () => {
                 <br />
                 Amount
                 <div className="text-slate-400 text-[15px] font-medium mt-[1rem]">
-                Prize Pool 1K
+                Prize Pool 
                 </div>
                 <div className="text-slate-400 text-[13px] font-medium">
                   No refund
@@ -342,15 +342,10 @@ const TechAdventure = () => {
       </div>
       <div className="flex flex-col justify-center gap-[40px] items-center max-w-[950px] mx-auto lg:mt-[10rem] mb-20">
         <div className="text-[21px] font-inter text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc w-[90%] mx-auto">
-        Briefly explain the concept of decoding emoji messages related to tech. Distribute 
-riddle sheets and answer sheets to each team. Set a timer for 4 minutes. Teams work 
-together to decipher the emojis, discussing and proposing answers. Encourage 
-creative interpretations and teamwork. Award points for each correct answer. 
-Consider offering hints for particularly challenging emojis.
+
 <br/>
 <br/>
-Example: Team A sees the combination . After some discussion, they guess "SpaceX" 
-and write it down on their answer sheet. If their answer is correct, they earn 1 point.
+
         </div>
       </div>
 
@@ -398,7 +393,7 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
           </div>
           <div className="flex flex-col" >
           <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-          Emoji Riddles (4 minutes)
+          Kahoot Quiz
           </div>
           <br/>
           <br/>
@@ -408,22 +403,20 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-            <li>Explain decoding tech-themed emoji messages.</li>
-  <li>Distribute riddle and answer sheets to teams.</li>
-  <li>Set a 4-minute timer for collaborative decoding.</li>
-  <li>Award points for each correct answer.</li>
-  <li>Offer hints for challenging emojis.</li>
-  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+           <li>This round likely involves answering multiple-choice questions on various topics in a fast-paced quiz format.</li>
+
+  <li>Tip: Review general knowledge and current events. Practice answering quick questions under pressure. Familiarize
+yourself with the Kahoot platform, if possible.</li>
             </ul>
           </div>
         </div>
           </div>
              <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            01
+            02
           </div>
               <div className="flex flex-col" >
           <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-          Emoji Riddles (4 minutes)
+          C Program Debugging
           </div>
           <br/>
           <br/>
@@ -433,23 +426,21 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-            <li>Explain decoding tech-themed emoji messages.</li>
-  <li>Distribute riddle and answer sheets to teams.</li>
-  <li>Set a 4-minute timer for collaborative decoding.</li>
-  <li>Award points for each correct answer.</li>
-  <li>Offer hints for challenging emojis.</li>
-  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            <li>You will be given a C program with errors and need to identify and fix them to make it function correctly</li>
+ 
+  <li>Tip: Brush up on your C syntax and common errors. Understand debugging techniques like print statements and
+stepping through code. Practice identifying and fixing errors in similar programs.</li>
             </ul>
           </div>
         </div>
           </div>
 
           <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            01
+            03
           </div>
               <div className="flex flex-col" >
           <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-          Emoji Riddles (4 minutes)
+          Logo Identification and Tech Questions.
           </div>
           <br/>
           <br/>
@@ -459,23 +450,22 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-            <li>Explain decoding tech-themed emoji messages.</li>
-  <li>Distribute riddle and answer sheets to teams.</li>
-  <li>Set a 4-minute timer for collaborative decoding.</li>
-  <li>Award points for each correct answer.</li>
-  <li>Offer hints for challenging emojis.</li>
-  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            <li>This round might involve identifying programming languages based on their logos or answering general tech-related
+questions.</li>
+ 
+  <li>Tip: Learn to recognize the logos of popular programming languages. Stay updated on current tech trends and news.
+Research answers to common tech trivia questions.</li>
             </ul>
           </div>
         </div>
           </div>
 
           <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            01
+            04
           </div>
               <div className="flex flex-col" >
           <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-          Emoji Riddles (4 minutes)
+          C to BHAILANG Conversion
           </div>
           <br/>
           <br/>
@@ -485,52 +475,49 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-            <li>Explain decoding tech-themed emoji messages.</li>
-  <li>Distribute riddle and answer sheets to teams.</li>
-  <li>Set a 4-minute timer for collaborative decoding.</li>
-  <li>Award points for each correct answer.</li>
-  <li>Offer hints for challenging emojis.</li>
-  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+            <li>You will be tasked with translating a C program into the BHAILANG language.</li>
+ 
+  <li>Tip: If BHAILANG is unfamiliar, research its syntax and similarities/differences to C. Understand the concepts and
+logic of the given C program to effectively translate it to BHAILANG.</li>
             </ul>
           </div>
         </div>
           </div>
 
+          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
+            05
+          </div>
+              <div className="flex flex-col" >
+          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
+          Surprise Round
+          </div>
+          <br/>
+          <br/>
+          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            <li>This round could be anything, so staying adaptable and flexible is key</li>
+ 
+  <li>Tip: Maintain a positive attitude and be ready to think outside the box. Utilize your knowledge and skills from previous
+rounds to tackle the unexpected.</li>
+            </ul>
+          </div>
+        </div>
+          </div>
 
         </div>
       </div>
 
-      <div className="flex flex-col mx-auto text-center max-w-[950px]">
-        <div className="text-zinc-100 text-[68px] font-normal font-['Varino'] tracking-[4.90px] m-5 m-rule-text">
-          IN-Game RULES
-        </div>
-        <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection">
-          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
-            <ul
-              className="flex flex-col gap-3 items-center text-center"
-              style={{ listStyleType: "disc" }}
-            >
-              <li>Trip mines are not allowed</li>
-              <li> Thermite are not allowed</li>
-              <li> No Operator Skills are allowed</li>
-              <li> Persistence Perks Not Allowed</li>
-              <li> No Emotes Are Allowed </li>
-              <li> No New Guns Are Allowed(Such as Groza) </li>
-              <li>
-                {" "}
-                Download the Ranked Maps (Map will be decided by
-                the Ziegers Teams)
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="valorantnote text-[#D05555] text-center mx-auto p-5  text-[20px] font-inter italic font-medium tracking-[1.15px] m-note">
+      <div className="valorantnote text-[#D05555] text-center mx-auto p-5  text-[20px] font-inter italic font-medium tracking-[1.15px] m-note">
           *NOTE: Any sort of damage to the property of College and the concerned
           authorities will not be tolerated and the one's responsible will be
           sanctioned with penalties and can also be charged a fine depending on
           the damage done.
         </div>
-      </div>
+   
       <div className="flex mt-[5rem]">
 
       <Footer/>

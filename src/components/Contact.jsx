@@ -17,7 +17,12 @@ const Contact = () => {
             <img src={logo} alt='contact-logo' className='w-[300px] m-contact-logo'/>
           </div>
           <div className='w-[400px] text-[#F9F9F9] font-readex text-[22px] font-bold tracking-[1.8px] text-center m-contact-text'>
-            We are just a mail away if you want to contact us.
+            We are just a call away if you want to contact us.
+            <br/>
+            <br/>
+            Mayank Rajput +918128119019
+            <br/>
+            Umesh Choudhary +917487869949
           </div>
           <div className='flex flex-row justify-around max-w-[800px] gap-20 flex-wrap m-support'>
               <div className='flex flex-col items-center justify-center text-center gap-4 m-support-sec'>

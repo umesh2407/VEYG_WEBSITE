@@ -1,6 +1,8 @@
+
+
 import React from "react";
-import banner from "../../assets/gt7.png";
-import mobilebanner from "../../assets/m-gt7banner.jpg";
+import banner from "../../assets/gullycricket.jpeg";
+import mobilebanner from "../../assets/gullycricket.jpeg";
 import transition from "../../transition";
 import OutsideClickHandler from "react-outside-click-handler";
 import menu from "../../assets/menu.svg";
@@ -9,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 import Footer from "../Footer";
 import { redirectToGamingForm } from "../redirect";
 
-const CpuAssembly = () => {
+const GullyCricket = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const getMenuStyles = (menuOpened) => {
     if (document.documentElement.clientWidth <= 800) {
@@ -25,83 +27,78 @@ const CpuAssembly = () => {
   };
   return (
     <section className="bg-[#0A0A0B] overflow-x-hidden wrapper ">
-      <nav
+       <nav
         className="flex text-[#fff] flex-row  items-center align-middle mx-auto pt-2 pl-10 justify-between bg-[#000000CC] rounded-es-[100px] rounded-br-[100px] bg-opacity-80 absolute m-gaming-nav"
         style={{ position: "absolute", top: 0, left: 0, right: 0, zIndex: 15 }}
       >
         <OutsideClickHandler
-          onOutsideClick={() => {
-            setMenuOpened(false);
-          }}
-        >
+        onOutsideClick={() => {
+          setMenuOpened(false);
+        }}
+      >
+        <div className="flex flex-row justify-evenly items-center align-middle h-menus lg:mb-[1rem]  ml-[3rem]"  style={getMenuStyles(menuOpened)}>
           <div
-            className="flex flex-row justify-evenly items-center align-middle h-menus lg:mb-[1rem]  ml-[3rem]"
-            style={getMenuStyles(menuOpened)}
+            onClick={handleContactClick}
+            className="flex justify-center cursor-pointer items-center align-middle font-varino text-focus-in navbar-text"
           >
-            <div
-              onClick={handleContactClick}
-              className="flex justify-center cursor-pointer items-center align-middle font-varino text-focus-in navbar-text"
-            >
-              Contact
-            </div>
-            <svg
-              width="34"
-              height="34"
-              viewBox="0 0 34 34"
-              fill="none"
-              className="text-focus-in m-hide"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="Huge-icon/arrows/outline/arrow-down">
-                <path
-                  id="Vector 190"
-                  d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
-                  stroke="#F3F3F3"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </g>
-            </svg>
-            <div
-              onClick={handleAboutclick}
-              className=" cursor-pointer font-varino ml-3 text-focus-in navbar-text"
-            >
-              About
-            </div>
-            <svg
-              width="34"
-              height="34"
-              className="text-focus-in m-hide"
-              viewBox="0 0 34 34"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="Huge-icon/arrows/outline/arrow-down">
-                <path
-                  id="Vector 190"
-                  d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
-                  stroke="#F3F3F3"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </g>
-            </svg>
+            Contact
           </div>
+          <svg
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            className="text-focus-in m-hide"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="Huge-icon/arrows/outline/arrow-down">
+              <path
+                id="Vector 190"
+                d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
+                stroke="#F3F3F3"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </svg>
+          <div onClick={handleAboutclick} className="cursor-pointer font-varino ml-3 text-focus-in navbar-text">
+            About
+          </div>
+          <svg
+            width="34"
+            height="34"
+            className="text-focus-in m-hide"
+            viewBox="0 0 34 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="Huge-icon/arrows/outline/arrow-down">
+              <path
+                id="Vector 190"
+                d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
+                stroke="#F3F3F3"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </svg>
+        </div>
         </OutsideClickHandler>
         <a
           href="/"
-          target="_blank"
-          className="font-varino font-bold mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text"
-          style={{ textShadow: "0 0 10px rgba(255, 255, 255, 0.8)" }}
+          className="font-varino font-bold mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text "
+          style={{
+        color:"rgb(97, 175, 241)" }}
         >
-         HOME
+          HOME
         </a>
 
         <a
-          href="h"
-          className="m-hide text-focus-in w-[150px] h-[47px] pl-[3px] pr-[13px] mr-[5rem] bg-[#D60000] from-zinc-950  rounded-full shadow border border-[#D60000] justify-start items-center inline-flex instagram-button mb-[0.5rem]"
+          href="https://www.instagram.com/saffronyinstitute/"
+          target="_blank"
+          className="m-hide text-focus-in w-[150px] h-[47px] pl-[3px] pr-[13px] mr-[5rem] bg-[#D6014C] from-zinc-950  rounded-full shadow border border-[#D6014C] justify-start items-center inline-flex instagram-button mb-[0.5rem]"
         >
           <div className="w-4 h-4 relative flex-col justify-start items-start flex " />
           <div className="text-center text-white  text-xs font-normal font-['Varino'] flex flex-row justify-center items-center align-middle">
@@ -124,20 +121,20 @@ const CpuAssembly = () => {
           </div>
         </a>
         <div
-          className="flex menu-icon cursor-pointer flex-row  justify-end mx-auto m-game-menu"
-          onClick={() => setMenuOpened((prev) => !prev)}
-        >
-          <img
-            src={menu}
-            alt="menu"
-            width="50px"
-            className="flex border border-solid  m-burger border-[#F3F3F3] rounded-lg m-burger2 text-focus-in"
-          ></img>
-        </div>
+        className="flex menu-icon cursor-pointer flex-row  justify-end mx-auto m-game-menu"
+        onClick={() => setMenuOpened((prev) => !prev)}
+      >
+        <img
+          src={menu}
+          alt="menu"
+          width="50px"
+          className="flex border border-solid  m-burger border-[#F3F3F3] rounded-lg m-burger2 text-focus-in"
+        ></img>
+      </div>
       </nav>
       <div className="font-varino">
         <div>
-          <div className="lg:flex justify-end hidden ">
+          <div className="lg:flex justify-end z-10 hidden">
             <svg
               width="300"
               height="341"
@@ -162,7 +159,7 @@ const CpuAssembly = () => {
               height="111"
               viewBox="0 0 105 111"
               fill="none"
-              className="absolute translate-y-[7rem] mr-[2.5rem] z-10"
+              className="absolute top-[7rem] mr-[2.5rem] z-10"
             >
               <path
                 d="M47.0275 21.0951L37.38 55.5022C37.0234 56.7732 36.4299 57.9555 35.6346 58.9789C34.8393 60.0024 33.8583 60.8462 32.7498 61.4604C31.6413 62.0746 30.4278 62.4467 29.1812 62.5546C27.9347 62.6626 26.6803 62.5042 25.4925 62.0888L11.2375 57.1057C9.94781 56.655 8.76623 55.9118 7.77497 54.9278C6.78371 53.9438 6.00657 52.7426 5.49761 51.4079C4.98865 50.0731 4.76011 48.6368 4.82787 47.1988C4.89563 45.7609 5.25808 44.3559 5.88999 43.0816L24.6275 5.29765C25.3848 3.77083 26.5049 2.48003 27.8771 1.55292C29.2492 0.6258 30.8258 0.094473 32.451 0.0114781C34.0762 -0.0715169 35.6937 0.296695 37.1435 1.0797C38.5933 1.86271 39.8253 3.03339 40.7175 4.47597L45.8875 12.8359C46.6327 14.0418 47.1207 15.4055 47.3176 16.832C47.5145 18.2585 47.4155 19.7133 47.0275 21.0951Z"
@@ -182,7 +179,7 @@ const CpuAssembly = () => {
               />
               <path
                 d="M105 68.6277V91.913C104.735 94.5159 103.797 96.6425 102.185 98.2929C101.425 99.0704 100.159 99.9469 98.3875 100.922C94.3625 103.14 90.3692 105.389 86.4075 107.668C85.0609 108.442 83.9434 108.923 83.055 109.11C79.115 109.942 75.1925 108.166 73.1225 104.585C72.6225 103.72 72.1542 102.451 71.7175 100.779C70.1092 94.6192 68.4775 88.5388 66.8225 82.5379C66.1842 80.2266 65.875 78.5939 65.895 77.6397C65.9775 73.4412 68.335 69.8629 72.075 68.3494C79.1367 65.4939 85.6783 62.823 91.7 60.3367C92.855 59.8596 93.8775 59.5795 94.7675 59.4965C97.4309 59.2438 99.7775 60.0478 101.808 61.9085C103.671 63.6155 104.735 65.8552 105 68.6277Z"
-                fill="#D60000"
+                fill="#D6014C"
               />
               <path
                 d="M66.6125 110.998H38.1875C36.4059 109.001 35.5025 106.729 35.4775 104.181C35.4659 103.052 35.7384 101.435 36.295 99.3304C37.7784 93.7307 39.2584 87.9401 40.735 81.9586C41.29 79.7127 41.7175 78.231 42.0175 77.5136C43.4525 74.0784 46.69 71.7857 50.245 71.6956C51.7767 71.6567 53.185 71.6638 54.47 71.7168C57.475 71.8413 60.185 73.7471 61.7675 76.3818C62.1942 77.0921 62.66 78.3635 63.165 80.196C65.0784 87.1528 66.9959 94.1079 68.9175 101.061C69.9492 104.79 69.1809 108.102 66.6125 110.998Z"
@@ -194,13 +191,13 @@ const CpuAssembly = () => {
                 Registration
                 <br />
                 Amount
-                <div className="text-slate-400 text-[13px] font-medium mt-[1rem]">
-                  Prize : Certificate
+                <div className="text-slate-400 text-[15px] font-medium mt-[1rem]">
+                Prize Pool
                 </div>
                 <div className="text-slate-400 text-[13px] font-medium">
                   No refund
                 </div>
-                <div className="relative justify-center z-10">
+                <div className="relative justify-center">
                   <div className="w-[225px] h-[60px] left-0 top-3 absolute bg-zinc-950 rounded-[100px]" />
                   <div className="w-6 h-5 left-[180px] top-[32px] absolute justify-center items-center inline-flex">
                     <div className="w-6 h-5 relative">
@@ -213,7 +210,7 @@ const CpuAssembly = () => {
                       >
                         <path
                           d="M14.43 5.92969L20.5 11.9997L14.43 18.0697"
-                          stroke="#D60000"
+                          stroke="#D6014C"
                           stroke-width="1.5"
                           stroke-miterlimit="10"
                           stroke-linecap="round"
@@ -221,7 +218,7 @@ const CpuAssembly = () => {
                         />
                         <path
                           d="M3.5 12H20.33"
-                          stroke="#D60000"
+                          stroke="#D6014C"
                           stroke-width="1.5"
                           stroke-miterlimit="10"
                           stroke-linecap="round"
@@ -239,13 +236,10 @@ const CpuAssembly = () => {
           </div>
 
           <div className="relative flex justify-center">
-            <div className="flex justify-center gt7-btn cursor-pointer absolute z-10 mx-auto bottom-[9.5rem] ">
+            <div className="flex justify-center cod-btn cursor-pointer absolute z-10 mx-auto bottom-[8.5rem]">
               <div className="flex justify-center ">
-                <div onClick={redirectToGamingForm} className="w-[235px] h-[65px] text-center flex flex-row items-center  left-0 top-0 bg-[#D60000] rounded-[100px] m-gt7-btn ">
-                  <div
-                    
-                    className="left-[2rem] absolute text-white text-[22px] font-semibold font-['Outfit'] m-participate-text"
-                  >
+                <div onClick={redirectToGamingForm} className="w-[235px] h-[65px] text-center flex flex-row items-center  left-0 top-0 bg-[#D6014C] rounded-[100px] m-cod-btn ">
+                  <div  className="left-[2rem] absolute text-white text-[22px] font-semibold font-['Outfit'] m-participate-text">
                     Participate
                   </div>
                   <div className="flex align-middle ">
@@ -319,7 +313,7 @@ const CpuAssembly = () => {
  
 
                   <div className=" font-readex text-[#F3F3F3]">
-                  Members: 4
+                  Members: 6
                   </div>
                 </div>
                 <div className="flex items-center lg:gap-2">
@@ -339,7 +333,7 @@ const CpuAssembly = () => {
                     />
                   </svg>
                   <div className=" font-readex text-[#F3F3F3]">
-                  Lab (1st floor) & 203
+                 Gully-Cricket Ground
                   </div>
                 </div>
               </div>
@@ -349,7 +343,16 @@ const CpuAssembly = () => {
       </div>
       <div className="flex flex-col justify-center gap-[40px] items-center max-w-[950px] mx-auto lg:mt-[10rem] mb-20">
         <div className="text-[21px] font-inter text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc w-[90%] mx-auto">
-       
+       1. In a group of 6 the team can participate.
+       <br/>
+       <br/>
+2. 1st Day is a First, Qualifying round. Groups qualifying will play on the 2nd Day in the Final Round.
+<br/>
+<br/>
+3. Rules for gully cricket:
+<br/>
+<br/>
+
         </div>
       </div>
 
@@ -385,117 +388,35 @@ const CpuAssembly = () => {
             </linearGradient>
           </defs>
         </svg>
-        <div className="text-zinc-100 text-[80px] font-normal font-['Varino'] translate-y-[-9.7rem] leading-[137.20px] tracking-[4.90px] z-10 m-rule-text">
-          ROUNDS
-        </div>
-      </div>
-
-      <div className="flex flex-col items-center text-center m-rules">
-        <div className="relative flex text-center flex-col items-center justify-center">
-          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            01
-          </div>
-          <div className="flex flex-col" >
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-         
-          </div>
-          <br/>
-          <br/>
-          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
-          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
-            <ul
-              className="flex flex-col gap-3 items-center text-center"
-              style={{ listStyleType: "disc" }}
-            >
-           <li>Simple Quiz About CPU Parts</li>
-  <li>Time Limit: 5 minutes</li>
-  <li>Teams answer questions on CPU components.</li>
-  <li>Identification of parts like processor, motherboard, RAM, graphics card, and storage devices.</li>
-  <li>Correct answers needed to proceed to the next round.</li>
-            </ul>
-          </div>
-        </div>
-          </div>
-             <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            02
-          </div>
-              <div className="flex flex-col" >
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-  
-          </div>
-          <br/>
-          <br/>
-          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
-          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
-            <ul
-              className="flex flex-col gap-3 items-center text-center"
-              style={{ listStyleType: "disc" }}
-            >
-           <li>Treasure Hunt</li>
-  <li>Time Limit: 25 minutes</li>
-  <li>Teams receive hints for a virtual treasure hunt of CPU components.</li>
-  <li>Explore the game environment to find hidden items like the processor, motherboard, RAM modules, graphics card, and storage devices.</li>
-  <li>Proceed to the next round once all components are located.</li>
-            </ul>
-          </div>
-        </div>
-          </div>
-
-          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            03
-          </div>
-              <div className="flex flex-col" >
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-        
-          </div>
-          <br/>
-          <br/>
-          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
-          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
-            <ul
-              className="flex flex-col gap-3 items-center text-center"
-              style={{ listStyleType: "disc" }}
-            >
-         <li>Assemble CPU with its Parts</li>
-  <li>Time Limit: 20 minutes</li>
-  <li>Teams demonstrate assembly skills by putting together CPU components.</li>
-  <li>Attention to detail and accuracy are crucial for success in this round.</li>
-            </ul>
-          </div>
-        </div>
-          </div>
-
-          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            04
-          </div>
-              <div className="flex flex-col" >
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
        
-          </div>
-          <br/>
-          <br/>
-          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
-          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
-            <ul
-              className="flex flex-col gap-3 items-center text-center"
-              style={{ listStyleType: "disc" }}
-            >
-            <li>OS Installation</li>
-  <li>Time Limit: 15 minutes</li>
-  <li>In the final round, teams install an operating system (OS) on the assembled CPU.</li>
-  <li>Follow on-screen instructions to select the preferred OS and complete the installation process.</li>
-  <li>Successful OS installation marks the completion of the game.</li>
-            </ul>
-          </div>
-        </div>
-          </div>
-
-
-        </div>
       </div>
 
       <div className="flex flex-col mx-auto text-center max-w-[950px]">
-  
+        <div className="text-zinc-100 text-[68px] font-normal font-['Varino'] tracking-[4.90px] m-5 m-rule-text">
+        GAME Rules
+        </div>
+        <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection">
+          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
+            <ul
+              className="flex flex-col gap-3 items-center text-center"
+              style={{ listStyleType: "disc" }}
+            >
+            
+  <li>Umpire decision will be final decision.</li>
+  <li>Interdisciplinary behaviour will lead to team disqualification.</li>
+  <li>Last player can do batting</li>
+  <li>Only underarm bowling allowed</li>
+  <li>Max 6 over match</li>
+  <li>Two consecutive wide balls leads to 1 run</li>
+  <li>Max 1 over per player except final</li>
+  <li>Dead balls will not be counted but 6 or 4 hitted will be counted.</li>
+  <li>No will not be considered.</li>
+  <li>1 tip , 1 catch out</li>
+  <li>Keeping is not compulsory.</li>
+  <li>6 out and direct collision to wall 6 will be accepted</li>
+            </ul>
+          </div>
+        </div>
         <div className="valorantnote text-[#D05555] text-center mx-auto p-5  text-[20px] font-inter italic font-medium tracking-[1.15px] m-note">
           *NOTE: Any sort of damage to the property of College and the concerned
           authorities will not be tolerated and the one's responsible will be
@@ -511,4 +432,4 @@ const CpuAssembly = () => {
   );
 };
 
-export default transition(CpuAssembly);
+export default transition(GullyCricket);

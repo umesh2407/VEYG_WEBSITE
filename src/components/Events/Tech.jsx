@@ -69,9 +69,7 @@ const Tech = () => {
           <div className=" absolute w-[100vw] h-[100px] gamingbanneroverlay m-gamingbanneroverlay -bottom-[3rem] flex justify-center items-center"></div>
         </div>
         <div className="text-center text-neutral-300 text-opacity-90 text-[30px] font-medium font-readex mt-[7rem] z-10 m-gaming-desc">
-          Play a variety of games of different genre, selecting from a
-          <br className="lg:flex hidden" />
-          large library of games.
+    
         </div>
         <div className="flex flex-col text-white mb-10 flex-wrap m-gamecard gap-16 mt-[7rem]">
           <div className="flex flex-row justify-center gap-12 game-card-1 ">

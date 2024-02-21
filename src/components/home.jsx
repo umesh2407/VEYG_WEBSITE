@@ -1,5 +1,6 @@
 
 import logo from "../../src/assets/ZiegersLogo.png";
+import safflogo from "../../src/assets/logo-saff.png";
 import stars from "../../src/assets/stars.webp";
 // import stroke from "../../src/assets/strokes.webp";
 import sphere1 from "../../src/assets/planet.png";
@@ -207,39 +208,13 @@ function Home() {
         <div className="flex flex-col lg:gap-3 absolute items-center top-[17%] h-[500px] w-[650px] mx-auto overflow-hidden hero-section">
           <img
             src={logo}
-            alt="Hello"
+            alt="Veyg"
             className="h-[335px] w-[500px] translate-y-5 m-logo"
           ></img>
+          
           <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024">
             VEYG 2024
           </p>
-          {/* <p className="lg:mt-3 text-center text-[#080808] font-readex font-light text-[20px] leading-[25px] ziegers-text ">
-            Ziegers enables participants to discover <br /> connections that was
-            not possible before.
-          </p> */}
-
-          {/* <div
-            onClick={handleRegisterClick}
-            className="flex fuller-button justify-center items-center mt-4 rounded-[100px] text-[#F9F9FF] font-varino bg-[#09090A] shadow-[0_1.417px_2.834px_0_rgba(0, 0, 0, 0.05)] p-[20px_10px_20px_15px] inline-flex items-center justify-center gap-1 h-[3.5rem] cursor-pointer register-button"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 -2 16 16"
-              fill="none"
-            >
-              <path
-                d="M8.88233 14C10.2123 13.9999 11.5046 13.5581 12.5563 12.744C13.6081 11.9299 14.3596 10.7895 14.693 9.502M8.88233 14C7.55233 13.9999 6.26002 13.5581 5.20831 12.744C4.1566 11.9299 3.40505 10.7895 3.07166 9.502M8.88233 14C10.539 14 11.8823 11.3133 11.8823 8C11.8823 4.68667 10.539 2 8.88233 2M8.88233 14C7.22566 14 5.88233 11.3133 5.88233 8C5.88233 4.68667 7.22566 2 8.88233 2M14.693 9.502C14.8163 9.022 14.8823 8.51867 14.8823 8C14.884 6.96807 14.6182 5.95333 14.111 5.05467M14.693 9.502C12.9151 10.4876 10.9151 11.0032 8.88233 11C6.77433 11 4.79366 10.4567 3.07166 9.502M3.07166 9.502C2.94549 9.01132 2.88188 8.50665 2.88233 8C2.88233 6.93 3.16233 5.92467 3.65366 5.05467M8.88233 2C9.94649 1.99956 10.9916 2.28224 11.9105 2.81904C12.8293 3.35585 13.5888 4.12744 14.111 5.05467M8.88233 2C7.81817 1.99956 6.77305 2.28224 5.8542 2.81904C4.93535 3.35585 4.17586 4.12744 3.65366 5.05467M14.111 5.05467C12.6594 6.31195 10.8027 7.00276 8.88233 7C6.88366 7 5.05566 6.26667 3.65366 5.05467"
-                stroke="#F9F9FF"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-            <span className=" w-[123px] text-[10.5px] text-center font-normal translate-y-[0.5px]">
-              Register now
-            </span>
-          </div> */}
         </div>
       </div>
 

@@ -11,6 +11,8 @@ import TechAdventure from './components/Gaming Events/TechAdventure';
 import CpuAssembly from './components/Gaming Events/CpuAssembly';
 import Tech from './components/Events/Tech';
 import NonTech from './components/Events/Non-Tech';
+import GullyCricket from './components/Gaming Events/GullyCricket';
+import Pentathlon from './components/Gaming Events/Pentathlon';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -44,8 +46,8 @@ function App() {
    
       <Route path="/events/non-technical/callofduty" element={<Cod/>} />
       {/* <Route path="/events/non-technical/bgmi" element={<Bgmi/>} /> */}
-      {/* <Route path="/events/non-technical/fifa2k23" element={<Fifa/>} /> */}
-      {/* <Route path="/events/non-technical/granttruismo7" element={<Granturismo/>} /> */}
+      <Route path="/events/non-technical/GullyCricket" element={<GullyCricket />} />
+      <Route path="/events/non-technical/Pentathlon" element={<Pentathlon/>} />
       
      </Routes> 
     </AnimatePresence>
