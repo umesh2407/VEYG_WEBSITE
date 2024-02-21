@@ -95,7 +95,7 @@ const JunkyardWars = () => {
         </a>
 
         <a
-          href="https://www.instagram.com/ziegerscs"
+          href="https://www.instagram.com/saffronyinstitute/"
           target="_blank"
           className="m-hide text-focus-in w-[150px] h-[47px] pl-[3px] pr-[13px] mr-[5rem] bg-[#D6014C] from-zinc-950  rounded-full shadow border border-[#D6014C] justify-start items-center inline-flex instagram-button mb-[0.5rem]"
         >
@@ -191,7 +191,7 @@ const JunkyardWars = () => {
                 <br />
                 Amount
                 <div className="text-slate-400 text-[15px] font-medium mt-[1rem]">
-                Prize Pool 1K
+                Prize Pool
                 </div>
                 <div className="text-slate-400 text-[13px] font-medium">
                   No refund
@@ -227,7 +227,7 @@ const JunkyardWars = () => {
                     </div>
                   </div>
                   <div className="left-[30px] top-[30px] absolute text-white text-[20px] font-semibold">
-                    ₹200/Team
+                    ₹70/Person
                   </div>
                 </div>
               </div>
@@ -331,7 +331,7 @@ const JunkyardWars = () => {
                     />
                   </svg>
                   <div className=" font-readex text-[#F3F3F3]">
-                  Lab (1st floor) & 203
+                  Workshop/Parking-area
                   </div>
                 </div>
               </div>
@@ -341,15 +341,11 @@ const JunkyardWars = () => {
       </div>
       <div className="flex flex-col justify-center gap-[40px] items-center max-w-[950px] mx-auto lg:mt-[10rem] mb-20">
         <div className="text-[21px] font-inter text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc w-[90%] mx-auto">
-        Briefly explain the concept of decoding emoji messages related to tech. Distribute 
-riddle sheets and answer sheets to each team. Set a timer for 4 minutes. Teams work 
-together to decipher the emojis, discussing and proposing answers. Encourage 
-creative interpretations and teamwork. Award points for each correct answer. 
-Consider offering hints for particularly challenging emojis.
-<br/>
-<br/>
-Example: Team A sees the combination . After some discussion, they guess "SpaceX" 
-and write it down on their answer sheet. If their answer is correct, they earn 1 point.
+        This event is specially designed for Civil & Mechanical Students. Here we shall first create a mound of useful junk like
+pipes, wires, rods,boxes, thermocol balls, cellotape, and much more and will also provide glue & binding material.
+The teams will then be asked to stand far away from the mound at different places and they have to run to the mound
+once the command is given. They will have 1 minute to pick up whatever they want from the mound.
+
         </div>
       </div>
 
@@ -396,9 +392,6 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
             01
           </div>
           <div className="flex flex-col" >
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-          Emoji Riddles (4 minutes)
-          </div>
           <br/>
           <br/>
           <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
@@ -407,23 +400,16 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-            <li>Explain decoding tech-themed emoji messages.</li>
-  <li>Distribute riddle and answer sheets to teams.</li>
-  <li>Set a 4-minute timer for collaborative decoding.</li>
-  <li>Award points for each correct answer.</li>
-  <li>Offer hints for challenging emojis.</li>
-  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+           Once they have picked up whatever they deem fit, in round 1, they will be asked to make a tower as high
+and stable as possible. The team with the highest tower gets the most points. Every team will be given points.
             </ul>
           </div>
         </div>
           </div>
              <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            01
+            02
           </div>
               <div className="flex flex-col" >
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-          Emoji Riddles (4 minutes)
-          </div>
           <br/>
           <br/>
           <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
@@ -432,76 +418,20 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-            <li>Explain decoding tech-themed emoji messages.</li>
-  <li>Distribute riddle and answer sheets to teams.</li>
-  <li>Set a 4-minute timer for collaborative decoding.</li>
-  <li>Award points for each correct answer.</li>
-  <li>Offer hints for challenging emojis.</li>
-  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
+          In this round, each will be given a small sized balloon filled with water which represents a group of humans
+that shall be coming to earth from space. Now they need to design a space shuttle for this balloon such that when it is
+dropped from the 2nd floor, the balloon shall not break, aka the humans shall not die.
             </ul>
           </div>
         </div>
           </div>
-
-          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            01
-          </div>
-              <div className="flex flex-col" >
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-          Emoji Riddles (4 minutes)
-          </div>
-          <br/>
-          <br/>
-          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
-          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
-            <ul
-              className="flex flex-col gap-3 items-center text-center"
-              style={{ listStyleType: "disc" }}
-            >
-            <li>Explain decoding tech-themed emoji messages.</li>
-  <li>Distribute riddle and answer sheets to teams.</li>
-  <li>Set a 4-minute timer for collaborative decoding.</li>
-  <li>Award points for each correct answer.</li>
-  <li>Offer hints for challenging emojis.</li>
-  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
-            </ul>
-          </div>
-        </div>
-          </div>
-
-          <div className="text-center text-white text-opacity-10 text-[70px] font-bold font-['Readex Pro'] m-rule-no-1">
-            01
-          </div>
-              <div className="flex flex-col" >
-          <div className="text-center z-10 translate-y-[-3rem] text-white text-[30px] font-bold font-['Readex Pro'] m-codm-rule-1">
-          Emoji Riddles (4 minutes)
-          </div>
-          <br/>
-          <br/>
-          <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection -mt-[3rem] mb-[3rem]">
-          <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
-            <ul
-              className="flex flex-col gap-3 items-center text-center"
-              style={{ listStyleType: "disc" }}
-            >
-            <li>Explain decoding tech-themed emoji messages.</li>
-  <li>Distribute riddle and answer sheets to teams.</li>
-  <li>Set a 4-minute timer for collaborative decoding.</li>
-  <li>Award points for each correct answer.</li>
-  <li>Offer hints for challenging emojis.</li>
-  <li>Example: Team A guesses "SpaceX," earns 1 point if correct.</li>
-            </ul>
-          </div>
-        </div>
-          </div>
-
 
         </div>
       </div>
 
       <div className="flex flex-col mx-auto text-center max-w-[950px]">
         <div className="text-zinc-100 text-[68px] font-normal font-['Varino'] tracking-[4.90px] m-5 m-rule-text">
-          IN-Game RULES
+          More Info.
         </div>
         <div className="valorantmapselection w-[950px] mx-auto text-center p-5 m-mapselection">
           <div className="p-[10px] flex flex-col gap-3 text-[#D4D4D4] tracking-[1.15px] text-[20px] font-inter text-center m-map-rules">
@@ -509,22 +439,13 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-              <li>Trip mines are not allowed</li>
-              <li> Thermite are not allowed</li>
-              <li> No Operator Skills are allowed</li>
-              <li> Persistence Perks Not Allowed</li>
-              <li> No Emotes Are Allowed </li>
-              <li> No New Guns Are Allowed(Such as Groza) </li>
-              <li>
-                {" "}
-                Download the Ranked Maps (Map will be decided by
-                the Ziegers Teams)
-              </li>
+   For Round 1 & 2 both, they may also trade materials with other teams if everyone is willing to do so.
+Final winner will be declared based on the summation of the marks from both the rounds.
             </ul>
           </div>
         </div>
         <div className="valorantnote text-[#D05555] text-center mx-auto p-5  text-[20px] font-inter italic font-medium tracking-[1.15px] m-note">
-          *NOTE: Any sort of damage to the property of Ziegers and the concerned
+          *NOTE: Any sort of damage to the property of College and the concerned
           authorities will not be tolerated and the one's responsible will be
           sanctioned with penalties and can also be charged a fine depending on
           the damage done.

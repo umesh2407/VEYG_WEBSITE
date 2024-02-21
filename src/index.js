@@ -10,8 +10,8 @@ import Tech from "./components/Events/Tech";
 import Cod from "./components/Gaming Events/JunkyardWars";
 // import Bgmi from "./components/Gaming Events/Bgmi";
 import TechTreasureHunt from "./components/Gaming Events/TechTreasureHunt";
-import Fifa from "./components/Gaming Events/Fifa";
-import Granturismo from "./components/Gaming Events/Granturismo";
+import Fifa from "./components/Gaming Events/TechAdventure";
+import Granturismo from "./components/Gaming Events/CpuAssembly";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

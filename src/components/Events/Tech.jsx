@@ -4,7 +4,6 @@ import banner from "../../assets/gamingPageBanner.webp";
 import mobilebanner from "../../assets/m-gamingbanner.webp";
 import bgmi from "../../assets/bgmi.jpg";
 import codm from "../../assets/codm.jpeg";
-import valorant from "../../assets/valorant.webp";
 import fifa2k23 from "../../assets/fifa2k23.jpg";
 import gt7 from "../../assets/gt7.png";
 import { useNavigate} from "react-router-dom";
@@ -26,10 +25,10 @@ const Tech = () => {
     navigate("/events/technical/TechTreasureHunt");
   };
   const handleFifaCardClick = () => {
-    navigate("/events/technical/fifa2k23");
+    navigate("/events/technical/TechAdventure");
   };
   const handleGt7CardClick = () => {
-    navigate("/events/technical/granttruismo7");
+    navigate("/events/technical/CpuAssembly");
   };
 
   const [loading, setLoading] = useState(true);

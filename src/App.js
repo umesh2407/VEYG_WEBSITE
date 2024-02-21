@@ -7,8 +7,8 @@ import ScrollToTop from './components/ScrollToTop';
 
 import Cod from './components/Gaming Events/JunkyardWars';
 import TechTreasureHunt from './components/Gaming Events/TechTreasureHunt';
-import Fifa from './components/Gaming Events/Fifa';
-import Granturismo from './components/Gaming Events/Granturismo';
+import TechAdventure from './components/Gaming Events/TechAdventure';
+import CpuAssembly from './components/Gaming Events/CpuAssembly';
 import Tech from './components/Events/Tech';
 import NonTech from './components/Events/Non-Tech';
 import Contact from './components/Contact';
@@ -39,13 +39,13 @@ function App() {
     
       <Route path="/events/technical/JunkyardWars" element={<Cod/>} />
       <Route path="/events/technical/TechTreasureHunt" element={<TechTreasureHunt/>} />
-      <Route path="/events/technical/fifa2k23" element={<Fifa/>} />
-      <Route path="/events/technical/granttruismo7" element={<Granturismo/>} />
+      <Route path="/events/technical/TechAdventure" element={<TechAdventure/>} />
+      <Route path="/events/technical/CpuAssembly" element={<CpuAssembly/>} />
    
       <Route path="/events/non-technical/callofduty" element={<Cod/>} />
       {/* <Route path="/events/non-technical/bgmi" element={<Bgmi/>} /> */}
-      <Route path="/events/non-technical/fifa2k23" element={<Fifa/>} />
-      <Route path="/events/non-technical/granttruismo7" element={<Granturismo/>} />
+      {/* <Route path="/events/non-technical/fifa2k23" element={<Fifa/>} /> */}
+      {/* <Route path="/events/non-technical/granttruismo7" element={<Granturismo/>} /> */}
       
      </Routes> 
     </AnimatePresence>
