@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./navbar.jsx";
-import gamecard from "../assets/gamecard.png";
-import codexcard from "../assets/codexcard.png";
+import gamecard from "../assets/TECH-EVENT.png";
+import codexcard from "../assets/NONTECH-EVENT.png";
 import VanillaTilt from "vanilla-tilt";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
