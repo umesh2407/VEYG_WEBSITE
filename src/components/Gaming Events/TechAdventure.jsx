@@ -98,7 +98,7 @@ const TechAdventure = () => {
         <a
           href="https://www.instagram.com/saffronyinstitute/"
           target="_blank"
-          className="m-hide text-focus-in w-[150px] h-[47px] pl-[3px] pr-[13px] mr-[5rem] bg-[#D6014C] from-zinc-950  rounded-full shadow border border-[#D6014C] justify-start items-center inline-flex instagram-button mb-[0.5rem]"
+          className="m-hide text-focus-in w-[150px] h-[47px] pl-[3px] pr-[13px] mr-[5rem] bg-[#D6014C] from-zinc-950  rounded-full shadow border border-[#D6014C] justify-start items-center inline-flex instagram-button mb-[0.5rem]" rel="noreferrer"
         >
           <div className="w-4 h-4 relative flex-col justify-start items-start flex " />
           <div className="text-center text-white  text-xs font-normal font-['Varino'] flex flex-row justify-center items-center align-middle">
