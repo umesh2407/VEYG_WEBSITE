@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../navbar.jsx";
 import banner from "../../assets/gamingPageBanner.webp";
 import mobilebanner from "../../assets/m-gamingbanner.webp";
-import gullycricket from "../../assets/gullycricket.jpeg";
+import gullycricket from "../../assets/gullycricket.png";
 import codm from "../../assets/codm.jpeg";
 import pentalon from "../../assets/pentalon.png";
 import { useNavigate} from "react-router-dom";

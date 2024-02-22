@@ -1,8 +1,8 @@
 
 
 import React from "react";
-import banner from "../../assets/gullycricket.jpeg";
-import mobilebanner from "../../assets/gullycricket.jpeg";
+import banner from "../../assets/gullycricket.png";
+import mobilebanner from "../../assets/gullycricket.png";
 import transition from "../../transition";
 import OutsideClickHandler from "react-outside-click-handler";
 import menu from "../../assets/menu.svg";
