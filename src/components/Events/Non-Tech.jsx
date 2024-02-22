@@ -4,7 +4,7 @@ import banner from "../../assets/gamingPageBanner.webp";
 import mobilebanner from "../../assets/m-gamingbanner.webp";
 import gullycricket from "../../assets/gullycricket.jpeg";
 import codm from "../../assets/codm.jpeg";
-import pentalon from "../../assets/pentalon.jpeg";
+import pentalon from "../../assets/pentalon.png";
 import { useNavigate} from "react-router-dom";
 import transition from "../../transition.js";
 import Footer from "../Footer.jsx";
@@ -62,43 +62,12 @@ const NonTech = () => {
         </div>
         <div className="flex flex-col text-white mb-10 flex-wrap m-gamecard gap-16 mt-[7rem]">
           <div className="flex flex-row justify-center gap-12 game-card-1 ">
-            {/* <div
-              className="rounded-[66px] bgmigamingcard bgmi m-bgmi"
-              onClick={handleBgmiCardClick}
-            >
-              <div className="w-[550px] h-[400px] text-center  flex justify-center cursor-pointer relative grayscale hover:grayscale-0 transition-all duration-500 ease-in-out m-bgmi">
-                <div className="overlay m-overlay"></div>
-                <img
-                  src={bgmi}
-                  alt="bgmi"
-                  className="p-4 h-[400px] w-[550px] rounded-[70px] absolute m-bgmi-img "
-                />
-                <div className="flex text-center my-auto mx-auto text-[80px] z-10 bgmitext m-bgmitext">
-                  BGMI
-                </div>
-              </div>
-            </div> */}
+          
 
     
           </div>
           <div className="">
-            {/* <div className="flex justify-center">
-              <div
-                onClick={handleValorantCardClick}
-                className="rounded-[66px] valorantgamingcard valorant m-valorant"
-              >
-                <div className=" w-[1150px] h-[400px] text-center flex justify-center cursor-pointer relative m-valorant">
-                  <img
-                    src={valorant}
-                    alt="valorant"
-                    className="p-4 h-[400px] w-[1250px] rounded-[80px] absolute valorantimg grayscale transition-all duration-500 ease-in-out m-valorant-img lg:grayscale-0"
-                  />
-                  <div className="flex text-center my-auto mx-auto text-[100px] z-10 valoranttext m-valoranttext">
-                    VALORANT
-                  </div>
-                </div>
-              </div>
-            </div> */}
+           
           </div>
           <div className="flex flex-row justify-center gap-12 game-card-1">
             <div
@@ -112,11 +81,7 @@ const NonTech = () => {
                   alt="GullyCricket"
                   className="p-4 h-[400px] w-[550px] rounded-[80px] absolute m-fifa-img "
                 />
-                {/* <div className="flex text-center justify-center items-center text-[60px] z-10 fifatext max-w-[35px] m-fifatext">
-                  FIFA
-                  <br />
-                  2K23
-                </div> */}
+               
               </div>
             </div>
             <div

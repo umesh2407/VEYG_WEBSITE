@@ -26,7 +26,9 @@ const About = () => {
     <span className='block mb-6 '>🌱 Cultivate Leadership and Management</span>
     <span className='block'>💡 Refine Essential Soft Skills</span>
 </div>
-
+<br/>
+<br/>
+<br/>
 
           </div>
           <div className='mt-[35rem] lg:mt-[30rem]'>
@@ -39,7 +41,9 @@ const About = () => {
       <br/>
       <br/>
       <div className="flex mt-[5rem]">
-
+      <br/>
+      <br/>
+      <br/>
       <Footer/>
       </div>
     </div>

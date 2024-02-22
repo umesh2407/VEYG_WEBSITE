@@ -15,9 +15,6 @@ const Tech = () => {
   const navigate = useNavigate();
   
 
-  const handleValorantCardClick = () => {
-    navigate("/events/technical/valorant");
-  };
   const handleCodCardClick = () => {
     navigate("/events/technical/JunkyardWars");
   };
@@ -81,7 +78,7 @@ const Tech = () => {
                 <div className="overlay m-overlay"></div>
                 <img
                   src={bgmi}
-                  alt="bgmi"
+                  alt="tech-tre-hunt"
                   className="p-4 h-[400px] w-[550px] rounded-[70px] absolute m-bgmi-img "
                 />
                 <div className="flex text-center my-auto mx-auto text-[80px] z-10 bgmitext m-bgmitext">
@@ -98,7 +95,7 @@ const Tech = () => {
                 <div className="overlay m-overlay"></div>
                 <img
                   src={codm}
-                  alt="codm"
+                  alt="codbanner"
                   className="p-4 h-[400px] w-[550px] rounded-[70px] absolute m-codm-img "
                 />
                 {/* <div className="flex text-center my-auto mx-auto text-[80px] z-10 codmtext m-codmtext">
@@ -108,23 +105,6 @@ const Tech = () => {
             </div>
           </div>
           <div className="">
-            {/* <div className="flex justify-center">
-              <div
-                onClick={handleValorantCardClick}
-                className="rounded-[66px] valorantgamingcard valorant m-valorant"
-              >
-                <div className=" w-[1150px] h-[400px] text-center flex justify-center cursor-pointer relative m-valorant">
-                  <img
-                    src={valorant}
-                    alt="valorant"
-                    className="p-4 h-[400px] w-[1250px] rounded-[80px] absolute valorantimg grayscale transition-all duration-500 ease-in-out m-valorant-img lg:grayscale-0"
-                  />
-                  <div className="flex text-center my-auto mx-auto text-[100px] z-10 valoranttext m-valoranttext">
-                    VALORANT
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
           <div className="flex flex-row justify-center gap-12 game-card-1">
             <div
@@ -135,14 +115,10 @@ const Tech = () => {
                 <div className="overlay m-overlay"></div>
                 <img
                   src={fifa2k23}
-                  alt="fifa2k23"
+                  alt="TechAdventure"
                   className="p-4 h-[400px] w-[550px] rounded-[80px] absolute m-fifa-img "
                 />
-                {/* <div className="flex text-center justify-center items-center text-[60px] z-10 fifatext max-w-[35px] m-fifatext">
-                  FIFA
-                  <br />
-                  2K23
-                </div> */}
+               
               </div>
             </div>
             <div
@@ -153,12 +129,9 @@ const Tech = () => {
                 <div className="overlay m-overlay"></div>
                 <img
                   src={gt7}
-                  alt="gt7"
+                  alt="CpuAssembly"
                   className="p-4 h-[400px] w-[550px] rounded-[80px] absolute m-assetocorsa-img "
                 />
-                {/* <div className="flex text-center justify-center items-center text-[60px] z-10 assetotext max-w-[35px] m-assetocorsatext">
-                  Grant Truismo 7
-                </div> */}
               </div>
             </div>
           </div>

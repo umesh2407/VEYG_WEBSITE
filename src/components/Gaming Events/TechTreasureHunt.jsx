@@ -313,7 +313,7 @@ const TechTreasureHunt = () => {
  
 
                   <div className=" font-readex text-[#F3F3F3]">
-                  Members: 4
+                  Members: 3
                   </div>
                 </div>
                 <div className="flex items-center lg:gap-2">

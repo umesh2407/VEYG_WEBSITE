@@ -1,8 +1,8 @@
 
 
 import React from "react";
-import banner from "../../assets/pentalon.jpeg";
-import mobilebanner from "../../assets/pentalon.jpeg";
+import banner from "../../assets/pentalon.png";
+import mobilebanner from "../../assets/pentalon.png";
 import transition from "../../transition";
 import OutsideClickHandler from "react-outside-click-handler";
 import menu from "../../assets/menu.svg";
