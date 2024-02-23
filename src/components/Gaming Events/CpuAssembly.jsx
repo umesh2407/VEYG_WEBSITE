@@ -91,7 +91,7 @@ const CpuAssembly = () => {
           </div>
         </OutsideClickHandler>
         <a
-          href="/"
+          href="https://umesh2407.github.io/VEYG_WEBSITE/"
           target="_blank"
           className="font-varino font-bold mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text"
           style={{ textShadow: "0 0 10px rgba(255, 255, 255, 0.8)" }}
@@ -100,7 +100,7 @@ const CpuAssembly = () => {
         </a>
 
         <a
-          href="h"
+          href="https://www.instagram.com/saffronyinstitute/"
           className="m-hide text-focus-in w-[150px] h-[47px] pl-[3px] pr-[13px] mr-[5rem] bg-[#D60000] from-zinc-950  rounded-full shadow border border-[#D60000] justify-start items-center inline-flex instagram-button mb-[0.5rem]"
         >
           <div className="w-4 h-4 relative flex-col justify-start items-start flex " />

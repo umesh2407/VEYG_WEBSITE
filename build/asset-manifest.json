@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/VEYG_WEBSITE/static/css/main.b5c594c5.css",
     "main.js": "/VEYG_WEBSITE/static/js/main.82a522c4.js",
     "static/js/787.ebfc83cf.chunk.js": "/VEYG_WEBSITE/static/js/787.ebfc83cf.chunk.js",
@@ -35,5 +36,42 @@
   "entrypoints": [
     "static/css/main.b5c594c5.css",
     "static/js/main.82a522c4.js"
+=======
+    "main.css": "/static/css/main.71942616.css",
+    "main.js": "/static/js/main.81768975.js",
+    "static/js/787.6cb3b903.chunk.js": "/static/js/787.6cb3b903.chunk.js",
+    "static/media/gt7.png": "/static/media/gt7.e96daf6146f8a68871c0.png",
+    "static/media/gullycricket.png": "/static/media/gullycricket.7d209cefce64796545ea.png",
+    "static/media/pentalon.png": "/static/media/pentalon.666ecd9dbacb2dc43ac1.png",
+    "static/media/TECH-EVENT.png": "/static/media/TECH-EVENT.bb445ffd165e2924bb10.png",
+    "static/media/NONTECH-EVENT.png": "/static/media/NONTECH-EVENT.3f401c738b3600528c8e.png",
+    "static/media/codbanner.jpeg": "/static/media/codbanner.87221ce23bc41739909a.jpeg",
+    "static/media/codm.jpeg": "/static/media/codm.87221ce23bc41739909a.jpeg",
+    "static/media/ReadexPro-VariableFont_HEXP,wght.ttf": "/static/media/ReadexPro-VariableFont_HEXP,wght.c2bf707ae53c58d8e43d.ttf",
+    "static/media/bgmi.jpg": "/static/media/bgmi.0847544cd028fb5d4bf0.jpg",
+    "static/media/ZiegersLogo.png": "/static/media/ZiegersLogo.01610a73e922962225f7.png",
+    "static/media/ZiegersLogo2.png": "/static/media/ZiegersLogo2.01610a73e922962225f7.png",
+    "static/media/planet.png": "/static/media/planet.2e3ffc056623a089a026.png",
+    "static/media/planet2.png": "/static/media/planet2.ef18214ffd0bf52fdbff.png",
+    "static/media/planet3.png": "/static/media/planet3.ef18214ffd0bf52fdbff.png",
+    "static/media/fifa2k23.jpg": "/static/media/fifa2k23.8249807c872b9f8813ce.jpg",
+    "static/media/fifabanner.jpg": "/static/media/fifabanner.8249807c872b9f8813ce.jpg",
+    "static/media/VarinonormalRegular-nRYg4.otf": "/static/media/VarinonormalRegular-nRYg4.73b4bdc9a68482b72da7.otf",
+    "static/media/m-gt7banner.jpg": "/static/media/m-gt7banner.85432738581ad0233112.jpg",
+    "static/media/m-gamingbanner.webp": "/static/media/m-gamingbanner.063fd22a73b9501dd302.webp",
+    "static/media/gamingPageBanner.webp": "/static/media/gamingPageBanner.14cd1dc8604510c01ed0.webp",
+    "static/media/stars.webp": "/static/media/stars.6d073c97f2d8073c4216.webp",
+    "static/media/logo-saff.png": "/static/media/logo-saff.41f2bbc4d217f8884fa1.png",
+    "static/media/contactbanner.svg": "/static/media/contactbanner.d8c864c0edc1ebbf30aaa30bf62bde9b.svg",
+    "index.html": "/index.html",
+    "static/media/menu.svg": "/static/media/menu.f42aaa1b5e76b80ca12af6ae95ea29dc.svg",
+    "main.71942616.css.map": "/static/css/main.71942616.css.map",
+    "main.81768975.js.map": "/static/js/main.81768975.js.map",
+    "787.6cb3b903.chunk.js.map": "/static/js/787.6cb3b903.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71942616.css",
+    "static/js/main.81768975.js"
+>>>>>>> e7f02125ed35401d52248ef49bedc5816c95af08
   ]
 }
