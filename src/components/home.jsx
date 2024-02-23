@@ -156,7 +156,7 @@ function Home() {
           </div>
         </OutsideClickHandler>
         <a
-          href="/"
+          href="https://umesh2407.github.io/VEYG_WEBSITE/"
           className="font-varino mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text "
           style={{ 
             color: "#61AFF1",
@@ -166,7 +166,7 @@ function Home() {
         </a>
         
         <a
-          href="/"
+          href="https://umesh2407.github.io/VEYG_WEBSITE/"
           // target="_blank"
           className="w-[150px] m-hide h-[47px] pl-[3px] pr-[13px] mr-[3rem] justify-start items-center inline-flex  mb-[0.5rem]"
         >
