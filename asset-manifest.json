@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VEYG_WEBSITE/static/css/main.b5c594c5.css",
-    "main.js": "/VEYG_WEBSITE/static/js/main.0e8bdd8b.js",
+    "main.css": "/VEYG_WEBSITE/static/css/main.6b7c07c7.css",
+    "main.js": "/VEYG_WEBSITE/static/js/main.bf256f3a.js",
     "static/js/787.6cb3b903.chunk.js": "/VEYG_WEBSITE/static/js/787.6cb3b903.chunk.js",
     "static/media/gt7.png": "/VEYG_WEBSITE/static/media/gt7.e96daf6146f8a68871c0.png",
     "static/media/gullycricket.png": "/VEYG_WEBSITE/static/media/gullycricket.7d209cefce64796545ea.png",
@@ -17,9 +17,11 @@
     "static/media/planet.png": "/VEYG_WEBSITE/static/media/planet.2e3ffc056623a089a026.png",
     "static/media/planet2.png": "/VEYG_WEBSITE/static/media/planet2.ef18214ffd0bf52fdbff.png",
     "static/media/planet3.png": "/VEYG_WEBSITE/static/media/planet3.ef18214ffd0bf52fdbff.png",
+    "static/media/space-background.jpg": "/VEYG_WEBSITE/static/media/space-background.ee7927e1bd7cb1f4dd05.jpg",
     "static/media/fifa2k23.jpg": "/VEYG_WEBSITE/static/media/fifa2k23.8249807c872b9f8813ce.jpg",
     "static/media/fifabanner.jpg": "/VEYG_WEBSITE/static/media/fifabanner.8249807c872b9f8813ce.jpg",
     "static/media/VarinonormalRegular-nRYg4.otf": "/VEYG_WEBSITE/static/media/VarinonormalRegular-nRYg4.73b4bdc9a68482b72da7.otf",
+    "static/media/dap.jpg": "/VEYG_WEBSITE/static/media/dap.f371af09cecda226e148.jpg",
     "static/media/m-gt7banner.jpg": "/VEYG_WEBSITE/static/media/m-gt7banner.85432738581ad0233112.jpg",
     "static/media/m-gamingbanner.webp": "/VEYG_WEBSITE/static/media/m-gamingbanner.063fd22a73b9501dd302.webp",
     "static/media/gamingPageBanner.webp": "/VEYG_WEBSITE/static/media/gamingPageBanner.14cd1dc8604510c01ed0.webp",
@@ -28,12 +30,12 @@
     "index.html": "/VEYG_WEBSITE/index.html",
     "static/media/contactbanner.svg": "/VEYG_WEBSITE/static/media/contactbanner.d8c864c0edc1ebbf30aaa30bf62bde9b.svg",
     "static/media/menu.svg": "/VEYG_WEBSITE/static/media/menu.f42aaa1b5e76b80ca12af6ae95ea29dc.svg",
-    "main.b5c594c5.css.map": "/VEYG_WEBSITE/static/css/main.b5c594c5.css.map",
-    "main.0e8bdd8b.js.map": "/VEYG_WEBSITE/static/js/main.0e8bdd8b.js.map",
+    "main.6b7c07c7.css.map": "/VEYG_WEBSITE/static/css/main.6b7c07c7.css.map",
+    "main.bf256f3a.js.map": "/VEYG_WEBSITE/static/js/main.bf256f3a.js.map",
     "787.6cb3b903.chunk.js.map": "/VEYG_WEBSITE/static/js/787.6cb3b903.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5c594c5.css",
-    "static/js/main.0e8bdd8b.js"
+    "static/css/main.6b7c07c7.css",
+    "static/js/main.bf256f3a.js"
   ]
 }
