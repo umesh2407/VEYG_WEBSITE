@@ -111,20 +111,7 @@ const Eventpage = () => {
               onClick={handlenonGamecardClick}
               className="flex justify-center items-center align-middle cursor-pointer"
             >
-              {/* <img
-                src={technutzcard}
-                alt="technutzcard"
-                className={`w-[33rem] card2 tilt ${
-                  showSecondCard ? "show" : ""
-                }`}
-              /> */}
-               {/* <img
-                src={gamecard}
-                alt="gamecard"
-                className={`w-[33rem]   card1 tilt ${
-                  showFirstCard ? "show" : ""
-                }`}
-              /> */}
+              
                <img
                 src={codexcard}
                 alt="codexcard"
