@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 // import transition from "../transition";
 import Loader from "./Loader.js";
 import Footer from "./Footer.jsx";
+import SpeakerSession from '../components/SpeakerSession';
 
 
 function Home() {
@@ -215,9 +216,26 @@ function Home() {
           <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024">
             VEYG 2024
           </p>
+          
         </div>
       </div>
+      <h1
+    className="text-white text-4xl font-bold mt-8 mb-4"
+    style={{
+      textAlign: 'center',
+      animation: 'fadeInDown 1.5s ease', // Example animation, replace with your desired animation
+    }}
+  >
+    Unveiling the Universe: ISRO's Journey Through Space and Time
+  </h1>
+        <div className="wrapper overflow-hidden font-varino">
+      {/* Your existing code... */}
 
+      <SpeakerSession />
+
+      {/* Your existing code... */}
+    </div>
+    
       <img
         src={sphere1}
         alt="bottomleft"
